@@ -1,0 +1,350 @@
+<lang>
+    <!-- System -->
+
+    <string name="tooltips.equipped">已装备</string>
+
+    <string name="item.info.tooltip.slot.mainhand">主手</string>
+    <string name="item.info.tooltip.slot.offhand">副手</string>
+    <string name="item.info.tooltip.slot.twohand">双手</string>
+    <string name="item.info.tooltip.slot.head">头部</string>
+    <string name="item.info.tooltip.slot.chest">上身</string>
+    <string name="item.info.tooltip.slot.feet">足部</string>
+    <string name="item.info.tooltip.slot.hands">手部</string>
+    <string name="item.info.tooltip.slot.back">背部</string>
+    <string name="item.info.tooltip.slot.accessory">配饰</string>
+    <string name="item.info.tooltip.slot.potion">药水</string>
+
+
+
+    <string name="text.openselsewhere">需要从其他地方开启！</string>
+    <string name="text.needakey">我需要一把钥匙！</string>
+    <string name="text.needbox">我需要一个工具箱！</string>
+    <string name="text.needpan">我需要一口平底锅！</string>
+    <string name="text.needaxe">我需要一把斧头！</string>
+    <string name="text.needshovel">我需要一把铲子！</string>
+    <string name="text.needpickaxe">我需要一把稿子！</string>
+    <string name="text.needreddye">我需要红色染料！</string>
+    <string name="text.needrope">我需要一根绳子！</string>
+    <string name="text.needladder">我需要一架梯子！</string>
+
+
+
+    <string name="rg_post_phosphor">开启荧光效果</string>
+    <string name="rg_post_phosphor.help">启用荧光显示效果</string>
+    <string name="rg_post_bloom">开启点光与泛光效果</string>
+    <string name="rg_post_bloom.help">开启点光与泛光显示效果</string>
+
+
+
+
+    <string name="button.shop.more">更多</string>
+    <string name="button.shop.tailor">裁缝</string>
+
+
+
+    <string name="epic.name.wicked">邪恶者</string>
+    <string name="epic.name.griffon">狮鹫</string>
+    <string name="epic.name.titan">泰坦</string>
+    <string name="epic.name.fiend">恶魔</string>
+    <string name="epic.name.serpent">巨蛇</string>
+    <string name="epic.name.hellion">魔兽</string>
+    <string name="epic.name.imp">小恶魔</string>
+    <string name="epic.name.colossus">巨像</string>
+    <string name="epic.name.leviathan">利维坦</string>
+    <string name="epic.name.torrent">洪流</string>
+    <string name="epic.name.macabre">噩梦</string>
+
+
+    <string name="epic.name.gift">礼物</string>
+    <string name="epic.name.favor">恩惠</string>
+    <string name="epic.name.boon">祝福</string>
+    <string name="epic.name.scourge">灾厄</string>
+    <string name="epic.name.legacy">遗产</string>
+    <string name="epic.name.insignia">徽章</string>
+    <string name="epic.name.fragment">碎片</string>
+    <string name="epic.name.signet">印记</string>
+    <string name="epic.name.seal">封印</string>
+    <string name="epic.name.bastion">堡垒</string>
+    <string name="epic.name.citadel">城堡</string>
+    <string name="epic.name.wall">城墙</string>
+    <string name="epic.name.gate">大门</string>
+    <string name="epic.name.heart">核心</string>
+    <string name="epic.name.raiment">衣装</string>
+    <string name="epic.name.garb">装束</string>
+    <string name="epic.name.regalia">皇家服饰</string>
+    <string name="epic.name.souvenir">纪念品</string>
+    <string name="epic.name.token">信物</string>
+    <string name="epic.name.symbol">符号</string>
+    <string name="epic.name.emblem">徽章</string>
+    <string name="epic.name.image">图像</string>
+    <string name="epic.name.band">环</string>
+    <string name="epic.name.link">连结</string>
+    <string name="epic.name.circuit">回路</string>
+    <string name="epic.name.chain">链</string>
+    <string name="epic.name.loop">圈</string>
+    <string name="epic.name.knot">结</string>
+    <string name="epic.name.mark">印记</string>
+    <string name="epic.name.edge">边缘</string>
+    <string name="epic.name.bite">咬痕</string>
+    <string name="epic.name.sting">刺针</string>
+    <string name="epic.name.punch">重击</string>
+    <string name="epic.name.blade">剑刃</string>
+    <string name="epic.name.edge">边缘</string>
+    <string name="epic.name.talon">利爪</string>
+    <string name="epic.name.needle">针</string>
+    <string name="epic.name.impaler">刺穿者</string>
+    <string name="epic.name.razor">剃刀</string>
+    <string name="epic.name.twig">树枝</string>
+    <string name="epic.name.branch">分枝</string>
+    <string name="epic.name.script">经文</string>
+    <string name="epic.name.tome">典籍</string>
+    <string name="epic.name.manuscript">手稿</string>
+    <string name="epic.name.theory">理论</string>
+    <string name="epic.name.article">文章</string>
+    <string name="epic.name.fable">寓言</string>
+    <string name="epic.name.crusher">粉碎者</string>
+    <string name="epic.name.mauler">猛击者</string>
+    <string name="epic.name.smasher">砸碎者</string>
+    <string name="epic.name.breaker">破坏者</string>
+    <string name="epic.name.volley">齐射</string>
+    <string name="epic.name.barrage">弹幕</string>
+    <string name="epic.name.song">歌</string>
+    <string name="epic.name.wind">风</string>
+    <string name="epic.name.wing">翅膀</string>
+    <string name="epic.name.deluge">洪水</string>
+    <string name="epic.name.eye">眼</string>
+    <string name="epic.name.gaze">凝视</string>
+
+    <string name="modifiers.enchant.bone_dust.desc">击杀敌人时有 %chance%% 几率召唤一只爬行者</string>
+    <string name="modifiers.enchant.shambler_claw.desc">攻击命中时有 %chance%% 几率对附近另一名敌人释放闪电，造成 %dmg% 点闪电伤害</string>
+    <string name="modifiers.enchant.wasp_stinger.desc">攻击时有 %chance%% 几率向随机敌人发射一枚毒刺投射物</string>
+    <string name="modifiers.enchant.wasp_stinger.desc2">施放法术时向随机敌人发射一枚毒刺投射物</string>
+    <string name="modifiers.enchant.wolf_liver.desc">当生命值全满时，移动速度提升 %value%</string>
+
+    <string name="modifiers.epic.skills.dmg.desc">%c-highlight%%skillname%\d 的伤害提升 %amount%%</string>
+    <string name="modifiers.epic.skills.cd.desc">%c-highlight%%skillname%\d 的冷却时间减少 %amount%%</string>
+    <string name="modifiers.epic.skills.costmana.desc">%c-highlight%%skillname%\d 的魔力消耗减少 %amount%%</string>
+    <string name="modifiers.epic.skills.coststamina.desc">%c-highlight%%skillname%\d 的耐力消耗减少 %amount%%</string>
+    <string name="modifiers.epic.skills.speed.desc">%c-highlight%%skillname%\d 的技能速度提升 %amount%%</string>
+    <string name="modifiers.epic.skills.stacksmax.desc">%c-highlight%%skillname%\d 的最大堆叠数增加至 %amount%</string>
+    <string name="modifiers.epic.skills.stacksduration.desc">%c-highlight%%skillname%\d 的持续时间延长 %amount%</string>
+    <string name="modifiers.epic.skills.summonmax.desc">%c-highlight%%skillname%\d 的最大召唤数量增加至 %amount%</string>
+
+    <string name="modifiers.potions.kill_refill_all.desc">击杀敌人时有 %chance%% 几率补充所有药水</string>
+    <string name="modifiers.potions.kill_refill_charge.desc">击杀敌人时有 %chance%% 几率补充一个随机药水的使用次数</string>
+
+    <string name="skills.desc.params.fiend.max">恶魔召唤上限：</string>
+
+    <string name="equipment.unique.accessory.expert_3.name">火焰锅炉</string>
+    <string name="skills.equipment.cauldron_of_fire.desc">放置一个锅炉，随机方向喷射小型火球，造成 %amount% 点火焰伤害。冷却时间 %cd%</string>
+
+    <string name="equipment.unique.accessory.master_2.name">元素棱镜</string>
+    <string name="skills.equipment.elemental_prism.desc">召唤一个棱镜，投射三道旋转光束，分别代表火焰、冰冷与雷电，每道光束造成对应元素的 %amount% 点伤害。冷却时间 %cd%</string>
+
+    <string name="equipment.unique.chest.master_1.name">泰坦之壁</string>
+    <string name="equipment.unique.chest.master_2.name">铜币之衣</string>
+    <string name="equipment.unique.chest.master_2.desc">受伤时损失 %amount% 金币</string>
+
+    <string name="equipment.unique.head.apprentice_1.name">绝望者兜帽</string>
+    <string name="equipment.unique.hands.apprentice_1.name">阴森园丁</string>
+    <string name="equipment.unique.hands.master_1.name">魔法之指</string>
+
+    <string name="equipment.unique.feet.expert_3.name">逐日者凉鞋</string>
+    <string name="equipment.unique.feet.expert_3.desc">撞击敌人时造成 %amount% 点火焰伤害。冷却时间 %cd%</string>
+
+    <string name="equipment.unique.rogue.mainhand.adept_1.name">格挡匕首</string>
+    <string name="equipment.unique.rogue.offhand.master_1.name">飞翔的大师</string>
+
+    <string name="equipment.unique.warlock.offhand.adept_1.name">连锁痛苦</string>
+    <string name="equipment.unique.warlock.offhand.adept_1.desc">受伤时获得 %c-highlight%灵魂精华\d 堆叠</string>
+
+    <string name="equipment.unique.wizard.offhand.adept_1.name">岩石发射器</string>
+    <string name="equipment.unique.wizard.offhand.adept_1.desc">发射一枚岩石投射物，碰撞时爆炸并造成副手伤害\n\n可以蓄力提升投射物的速度与距离\n\n魔力消耗：%cost%\n冷却时间：%cd%</string>
+
+    <string name="item.meal.sizzling_essence_tea.name">炽热精华茶</string>
+    <string name="item.meal.sizzling_essence_tea.desc">%amount% 法术消耗与冷却时间。法力恢复设为 0，持续 %dur% 分钟</string>
+
+    <string name="item.map_bb.name">黑洞峡谷地图</string>
+    <string name="item.map_bb.desc">黑洞峡谷地区的地图</string>
+    
+    <string name="hud.newtier">新阶级！</string>
+    
+    <string name="quest.timedcomp">\"icn-quest-need" 此任务有时间限制，必须在合理的时间内完成</string>
+
+    <string name="misc.dmg.immortal">无敌！</string>
+
+    <!-- Missing Added 0421 -->
+    <!-- Missing Added 0421 -->
+    <!-- Missing Added 0421 -->
+    <!-- Missing Added 0421 -->
+    <!-- Missing Added 0421 -->
+    
+    
+    <string name="skills.paladin.spell_1.up3.desc">这把锤子在短暂延迟后会回到你的手中。</string>
+    <string name="skills.rogue.master.passive_1.up1.desc">在敌人处于 %c-highlight%低生命\d 时，攻击暴击有几率直接击杀敌人。对Bosses无效</string>
+    <string name="skills.rogue.master.spell_2.desc">你潜入阴影中，短时间内变得无法被发现。造成任何伤害将提前结束此效果</string>
+    <string name="skills.warlock.mainhand.up1.desc">灵魂投射物在命中后会自动追踪新的目标。每命中一个敌人，伤害会降低</string>
+    <string name="modifiers.misc.experience.desc">%desc%% 经验值增益</string>
+
+    <string name="item.meal.raging_behemoth.desc">%amount% 伤害。 %amount2% 法术消耗与冷却时间，持续 %dur% 分钟</string>
+    <string name="item.meal.ghost_jam.desc">%amount% 闪避。护甲与火焰抗性设为 0，持续 %dur% 分钟</string>
+    <string name="item.meal.pancakes.desc">%amount% 经验值增益与 %amount2% 移动速度提升，持续 %dur% 分钟</string>
+    <string name="item.meal.summer_city_platter.desc">%amount% 全属性提升，持续 %dur% 分钟</string>
+
+    <string name="log.objectives">目标</string>
+    <string name="log.rewards">奖励</string>
+    <string name="log.noquest">你的任务记录是空的</string>
+    <string name="log.desc">描述</string>
+    
+    <string name="text.saving">储存中...</string>
+
+    <string name="menu.playerlist.profile.title">个人档案</string>
+    <string name="menu.playerlist.profile.tooltip">打开该玩家的个人档案</string>
+    <string name="menu.playerlist.kick.title">踢出</string>
+    <string name="menu.playerlist.kick.tooltip">踢出该玩家</string>
+    <string name="menu.playerlist.kick.prompt">确定要踢出 %name% 吗？</string>
+    <string name="menu.playerlist.ping">%value% 毫秒</string>
+    <string name="menu.playerlist.host">主机</string>
+
+
+
+    <string name="item.torch.name">火炬</string>
+    <string name="item.torch.desc">使周围稍微变亮</string>
+
+
+    <string name="menu.controls.menuaccept">选单确定</string>
+    <string name="rope.tied">绳子已绑好！</string>
+    <string name="cred.title.engine2">由 A000FF 引擎提供支持，同样用于《Serious Sam's Bogus Detour》\n《Heroes of Hammerwatch》和《Hammerwatch II》</string>
+    <string name="menu.lobby.chat.minplayers">需要至少 %min% 名玩家才能开始</string>
+    <string name="menu.lobby.chat.maxplayers">此场景最多可容纳 %max% 名玩家</string>
+    <string name="menu.controls.layout.ds41">控制器 4 1</string>
+    <string name="menu.controls.layout.ds42">控制器 4 2</string>
+    <string name="menu.controls.layout.ds43">控制器 4 3</string>
+    <string name="menu.controls.layout.ds44">控制器 4 4</string>
+    <string name="menu.loadgame.failed">载入存档失败</string>
+
+    <string name="button.skip">跳过</string>
+
+    <string name="g_autoequip">自动装备</string>
+    <string name="g_autoequip.help">若该装备栏位尚未有装备，则自动装备新装备</string>
+
+    <string name="g_quickcast">快速施法</string>
+    <string name="g_quickcast.help">立即施放技能，忽略瞄准步骤。</string>
+
+    <string name="ui_show_controlbinds">控制键绑定</string>
+    <string name="ui_show_controlbinds.help">在界面中显示按键提示</string>
+
+    <string name="g_movedir_snap">移动方向锁定</string>
+    <string name="g_movedir_snap.help">限制可移动的角度</string>
+
+    <string name="g_aimdir_snap">瞄准方向锁定</string>
+    <string name="g_aimdir_snap.help">限制可瞄准的角度</string>
+
+    <string name="g_charge_movedir">移动方向冲刺</string>
+    <string name="g_charge_movedir.help">行走时可根据移动方向进行冲刺。</string>
+
+    <string name="ui_hud_hpbars_plr">队友血条</string>
+    <string name="ui_hud_hpbars_plr.help">显示队友的血量。</string>
+
+    <string name="menu.controls.actionmenuforward">ACTION MENU FORWARD</string>
+
+    <string name="menu.loadgame.ren">重新命名</string>
+    <string name="menu.loadgame.del">删除</string>
+    <string name="menu.loadgame.load">载入存档</string>
+    <string name="button.save">存档</string>
+
+    <string name="item.error.empty_potion">药水已空！需要重新补充！!</string>
+
+    <string name="menu.notifier.joinfailed.join">加入大厅失败。</string>
+    <string name="menu.notifier.joinfailed.host">创建大厅失败。</string>
+
+    <string name="misc.dmg.miss">未命中！</string>
+    <string name="misc.dmg.evade">闪避！</string>
+    <string name="misc.dmg.parry">格挡！</string>
+
+    <string name="menu.player.stats.currpoints">可分配点数： %points%\"icn-attrpt"</string>
+    <string name="menu.player.stats.mainhand">主手</string>
+    <string name="menu.player.stats.offhand">副手</string>
+    <string name="menu.player.stats.damage">伤害</string>
+
+    <string name="character.stat.tooltip.evasion.title">闪避</string>
+    <string name="character.stat.tooltip.evasion.text">闪避攻击的几率</string>
+    <string name="character.stat.tooltip.parry.title">格挡</string>
+    <string name="character.stat.tooltip.parry.text">格挡来自正面近战攻击的几率</string>
+
+    <string name="character.stat.tooltip.castspeed.title">施法速度</string>
+    <string name="character.stat.tooltip.castspeed.text">决定施法的速度</string>
+    <string name="character.stat.tooltip.spellcooldown.title">法术冷却时间</string>
+    <string name="character.stat.tooltip.spellcooldown.text">法术再次施放所需的冷却时间</string>
+    <string name="character.stat.tooltip.spellcritdmg.title">法术暴击伤害</string>
+    <string name="character.stat.tooltip.spellcritdmg.text">法术暴击造成的额外伤害</string>
+    <string name="character.stat.tooltip.spellcritchance.title">法术暴击率</string>
+    <string name="character.stat.tooltip.spellcritchance.text">法术造成暴击的几率</string>
+
+    <string name="character.stat.tooltip.attackspeed.title">攻击速度</string>
+    <string name="character.stat.tooltip.attackspeed.text">决定攻击的速度</string>
+    <string name="character.stat.tooltip.attackcritdmg.title">攻击暴击伤害</string>
+    <string name="character.stat.tooltip.attackcritdmg.text">攻击暴击造成的额外伤害</string>
+    <string name="character.stat.tooltip.attackcritchance.title">攻击暴击率</string>
+    <string name="character.stat.tooltip.attackcritchance.text">攻击造成暴击的几率</string>
+
+    <string name="character.stat.tooltip.armorbreak.title">护甲穿透</string>
+    <string name="character.stat.tooltip.armorbreak.text">降低目标的护甲值</string>
+    <string name="character.stat.tooltip.resistancefirebreak.title">火焰抗性穿透</string>
+    <string name="character.stat.tooltip.resistancefirebreak.text">降低目标的火焰抗性</string>
+    <string name="character.stat.tooltip.resistanceicebreak.title">冰冷抗性穿透</string>
+    <string name="character.stat.tooltip.resistanceicebreak.text">降低目标的冰冷抗性</string>
+    <string name="character.stat.tooltip.resistancelightningbreak.title">闪电抗性穿透</string>
+    <string name="character.stat.tooltip.resistancelightningbreak.text">降低目标的闪电抗性</string>
+    <string name="character.stat.tooltip.resistancepoisonbreak.title">毒素抗性穿透</string>
+    <string name="character.stat.tooltip.resistancepoisonbreak.text">降低目标的毒素抗性</string>
+
+    <string name="skills.equipment.archon_nova.name">本源新星</string>
+    <string name="skills.equipment.archon_nova.desc">释放多个旋转投射物，造成 %dmg% 火焰和纯粹伤害。冷却时间：%cd%</string>
+    <string name="skills.equipment.thunderbird_lightning.name">召唤闪电</string>
+    <string name="skills.equipment.thunderbird_lightning.desc">召唤一连串闪电攻击前方，造成 %dmg% 闪电伤害。冷却时间：%cd%</string>
+    <string name="modifiers.class.warlock.fiends_add.desc">你可以额外召唤 %value% 名 %c-highlight%恶魔\d</string>
+    <string name="modifiers.class.wizard.duplicate_add.desc">你可以额外召唤 %value% 个 %c-highlight%分身\d。</string>
+
+    <string name="skills.desc.params.projectile.dmg">投射物伤害：</string>
+    <string name="modifiers.misc.attack_hit_health_chance.desc">攻击命中时有 %chance%% 几率恢复 %value% 生命</string>
+    <string name="modifiers.misc.attack_hit_stamina_chance.desc">攻击命中时有 %chance%% 几率恢复 %value% 耐力</string>
+    <string name="modifiers.misc.attack_hit_mana_chance.desc">攻击命中时有 %chance%% 几率恢复 %value% 法力值。</string>
+    <string name="modifiers.enchant.blackheart.prefix">黑心</string>
+    <string name="modifiers.enchant.blackheart.suffix">腐化之</string>
+    <string name="modifiers.damage_taken.desc">额外受到 %desc%% 伤害</string>
+
+    <string name="menu.player.stats.mainhand">主手</string>
+    <string name="menu.player.stats.offhand">副手</string>
+    <string name="menu.player.stats.damage">伤害</string>
+
+    <string name="dialogue.player_door_locked_generic">已上锁！</string>
+
+    <string name="enemy.ghost_priest.name">幽灵祭司</string>
+
+    <!-- Missing Added 0911 -->
+    <!-- Missing Added 0911 -->
+    <!-- Missing Added 0911 -->
+    <!-- Missing Added 0911 -->
+    <!-- Missing Added 0911 -->
+
+    <string name="menu.pick_character.title">选择角色</string>
+    <string name="menu.pick_character.createnew">创建新角色</string>
+    <string name="menu.pick_character.localsave">本地存档</string>
+
+    <string name="o.press.specific.key">按 %key%</string>
+
+    <string name="o.press.specific.key.to.join">按 %key% 加入游戏</string>
+
+    <string name="menu.options.legacy.control.title">经典控制方式</string>
+    <string name="menu.options.legacy.control.desc">模拟 2013 年发行的《Hammerwatch》中的原版控制方式</string>
+    <string name="menu.controls.hold">HOLD POSITION</string>
+
+    <string name="menu.emotes.come_here">來这里</string>
+    <string name="menu.emotes.greeting">你好</string>
+    <string name="menu.emotes.oops">哎呀</string>
+    <string name="menu.emotes.sorry">抱歉</string>
+    <string name="menu.emotes.thanks">谢谢</string>
+    <string name="menu.emotes.well_played">做得不错</string>
+</lang>
+

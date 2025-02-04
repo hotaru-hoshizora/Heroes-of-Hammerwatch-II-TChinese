@@ -1,0 +1,129 @@
+<lang>
+    <string name="option.defaults">恢复默认</string>
+    <string name="option.alt.select">选择</string>
+    <string name="option.alt.change">更改</string>
+    <string name="option.alt.on">开启</string>
+    <string name="option.alt.off">关闭</string>
+    <string name="option.alt.yes">是</string>
+    <string name="option.alt.no">否</string>
+    <string name="option.alt.steam">Steam</string>
+    <string name="option.alt.in_game">游戏内</string>
+    <string name="option.alt.hurt">受伤时</string>
+    <string name="option.alt.sun">日光</string>
+    <string name="option.alt.all">全部</string>
+    <string name="option.alt.borderless">无边框</string>
+    <string name="option.alt.fullscreen">全屏</string>
+    <string name="option.alt.windowed">窗口化</string>
+    <string name="option.alt.none">无</string>
+    <string name="option.alt.missing">Missing</string>
+    <string name="option.alt.marker">标记</string>
+    <string name="option.alt.laser">准星</string>
+    <string name="option.alt.both">两者</string>
+    <string name="option.alt.auto_marker">自动标记</string>
+    <string name="option.alt.auto_laser">自动准星</string>
+    <string name="option.alt.auto_both">自动两者</string>
+    <string name="option.alt.auto">自动</string>
+    <string name="option.alt.colored">玩家颜色</string>
+    <string name="option.alt.white">白色</string>
+
+    <!-- Game -->
+    <string name="option.language">语言</string>
+
+    <string name="option.g_virtual_res_scale.title">游戏画面缩放</string>
+    <string name="option.ui_scale.title">UI比例</string>
+
+    <string name="option.ui_minimap.title">小地图</string>
+    <string name="option.ui_minimap_alpha.title">小地图透明度</string>
+    <string name="option.ui_minimap_scale.title">小地图比例</string>
+    <string name="option.ui_minimap_size.title">小地图大小</string>
+
+    <string name="option.g_real_names.title">显示名称</string>
+    <string name="option.g_show_pings.title">显示多人游戏延迟</string>
+    <string name="option.ui_plr_names_alpha.title">玩家名称透明度</string>
+    <string name="option.g_emotes.title">多人游戏表情</string>
+
+    <string name="option.ui_cursor_fat.title">更大的准星</string>
+    <string name="option.ui_cursor_alpha.title">鼠标透明度</string>
+    <string name="option.ui_overlay_minimap_alpha.title">小地图透明度</string>
+    <string name="option.ui_hud_dashbar.title">玩家冲刺条</string>
+    <string name="option.ui_cursor_health.title">鼠标状态</string>
+    <string name="option.g_laser_sight.title">瞄准辅助线</string>
+    <string name="option.g_player_markers.title">多人瞄准标记</string>
+    <string name="option.g_quickcast.title">快速施法</string>
+
+    <string name="option.ui_hud_hpbars_enemy.title">敌人血条</string>
+    <string name="option.ui_hud_hpbars_plr.title">玩家血条</string>
+    <string name="option.ui_hud_hpbars_minion.title">小兵血条</string>
+    <string name="option.ui_hud_hpbars_allied_plr.title">队友血条</string>
+
+    <string name="option.ui_hud_hpbars_color_enemy.title">敌人血条颜色</string>
+    <string name="option.ui_hud_hpbars_color_plr.title">玩家血条颜色</string>
+    <string name="option.ui_hud_hpbars_color_minion.title">小兵血条颜色</string>
+    <string name="option.ui_hud_hpbars_color_allied_plr.title">队友血条颜色</string>
+
+    <string name="option.bar_color.0">红色</string>
+    <string name="option.bar_color.1">绿色</string>
+    <string name="option.bar_color.2">黄色</string>
+    <string name="option.bar_color.3">紫色</string>
+    <string name="option.bar_color.4">青色</string>
+    <string name="option.bar_color.5">橙色</string>
+    <string name="option.bar_color.6">灰色</string>
+    <string name="option.bar_color.7">白色</string>
+
+
+    <string name="option.g_movedir_snap.title">移动方向自动校正</string>
+    <string name="option.g_aimdir_snap.title">瞄准方向自动校正</string>
+    <string name="option.g_charge_movedir.title">移动方向冲刺</string>
+    <string name="option.g_controller_move_dir.title">瞄准方向移动</string>
+
+    <string name="option.ui_txt.title">浮动文字</string>
+    <string name="option.ui_txt_enemy_hurt_husk.title">其他玩家伤害</string>
+    <string name="option.ui_txt_enemy_hurt_local.title">自身伤害</string>
+
+    <string name="option.ui_hud_overlay_always_visible.title">始终显示HUD</string>
+
+    <string name="option.g_item_pickup_tooltip_trinket.title">饰品拾取预览</string>
+    <string name="option.g_item_pickup_tooltip_equipment.title">装备拾取预览</string>
+
+    <string name="option.ui_load_screen_brightness.title">载入画面亮度</string>
+
+
+    <!-- Graphics -->
+    <string name="option.resolution">分辨率</string>
+
+    <string name="option.v_fullscreen.title">全屏</string>
+    <string name="option.v_vsync.title">垂直同步</string>
+    <string name="option.v_fps_limit.title">帧数限制</string>
+    <string name="option.rg_pixel_perfect.title">像素精准</string>
+    <string name="option.r_hdr.title">改进光照效果</string>
+    <string name="option.r_light_decal_proj.title">光线投影</string>
+    <string name="option.r_shadows.title">阴影</string>
+    <string name="option.r_draw_glow.title">发光效果</string>
+    <string name="option.r_draw_bloom.title">泛光效果</string>
+    <string name="option.r_draw_xray.title">透视效果</string>
+    <string name="option.r_environmental_detail.title">环境细节</string>
+    <string name="option.r_wind_sprite_animations.title">植被风动效果</string>
+    <string name="option.rg_brightness.title">亮度</string>
+    <string name="option.rg_gamma.title">伽马值</string>
+    <string name="option.rg_contrast.title">对比度</string>
+    <string name="option.rg_crt_curve.title">CRT 曲面效果</string>
+    <string name="option.rg_post_phosphor.title">后期处理磷光效果</string>
+    <string name="option.rg_post_bloom.title">后期处理点光与光晕</string>
+
+    <!-- Sound -->
+    <string name="option.snd_volume.title">主音量</string>
+    <string name="option.snd_volume_music.title">音乐</string>
+    <string name="option.snd_volume_sfx.title">音效</string>
+    <string name="option.snd_volume_voice.title">语音</string>
+    <string name="option.snd_volume_env.title">环境音效</string>
+    <string name="option.snd_volume_ui.title">介面音效</string>
+    <string name="option.g_combo_sound.title">循环连击音效</string>
+
+
+    <string name="option.prompt.settings_appy">是否套用设定？</string>
+    <string name="option.prompt.settings_save">是否储存设定？</string>
+    <string name="option.prompt.settings_default">是否重设为预设值？</string>
+
+        
+</lang>
+

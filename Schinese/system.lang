@@ -1,0 +1,1548 @@
+<lang name="Simple Chinese_base" min-size="9" max-bold="0" fonts="unicode">
+
+	<string name="skill.tag.weapon">\cffdfb0武器\d</string>
+	<string name="skill.tag.spell">\cffdfb0技能\d</string>
+	<string name="skill.tag.passive">\cffdfb0被动\d</string>
+	<string name="skill.tag.ranged">\cffdfb0远程\d</string>
+	<string name="skill.tag.melee">\cffdfb0近战\d</string>
+	<string name="skill.tag.physical">\cffdfb0物理\d</string>
+	<string name="skill.tag.arcane">\cffdfb0秘法\d</string>
+	<string name="skill.tag.bow">\cffdfb0弓\d</string>
+	<string name="skill.tag.fire">\cffdfb0火\d</string>
+	<string name="skill.tag.ice">\cffdfb0冰\d</string>
+	<string name="skill.tag.lightning">\cffdfb0雷\d</string>
+	<string name="skill.tag.poison">\cffdfb0毒\d</string>
+
+
+	<!-- Menu -->
+
+	<string name="menu.accept">接受</string>
+	<string name="menu.yes">是</string>
+	<string name="menu.no">否</string>
+	<string name="menu.ok">确定</string>
+	<string name="menu.cancel">取消</string>
+	<string name="menu.back">返回</string>
+
+	<string name="menu.cost">\"icn-money" %amount%</string>
+	<string name="menu.nav.select">选择</string>
+	<string name="menu.nav.create">创建</string>
+	<string name="menu.nav.refresh">刷新</string>
+	<string name="menu.nav.start">开始</string>
+	<string name="menu.nav.ready">准备</string>
+	<string name="menu.nav.unready">取消准备</string>
+	<string name="menu.nav.ngp+">NG+</string>
+	<string name="menu.nav.ngp-">NG-</string>
+	<string name="menu.nav.bind">绑定</string>
+	<string name="menu.nav.save">储存</string>
+	<string name="menu.nav.revert">还原</string>
+	<string name="menu.nav.reset">重置</string>
+	<string name="menu.nav.delete">删除</string>
+	<string name="menu.nav.compare">比较</string>
+	<string name="menu.nav.unequip">卸下</string>
+	<string name="menu.nav.equip">装备</string>
+	<string name="menu.nav.compare">比较</string>
+	<string name="menu.nav.destroy">销毁</string>
+	<string name="menu.nav.pan">平移</string>
+	<string name="menu.nav.zoom_in">放大</string>
+	<string name="menu.nav.zoom_out">缩小</string>
+	<string name="menu.nav.buy">购买</string>
+	<string name="menu.nav.apply">确认</string>
+	<string name="menu.nav.revert">还原</string>
+	<string name="menu.nav.prev_class">上一个职业</string>
+	<string name="menu.nav.next_class">下一个职业</string>
+	<string name="menu.nav.random_name">随机名称</string>
+	<string name="menu.nav.test_voice">测试语音</string>
+	<string name="menu.nav.random_appear">随机外观</string>
+	<string name="menu.nav.back_town">返回城镇</string>
+	<string name="menu.nav.new_save">新存档</string>
+	<string name="menu.nav.stash_config">仓库设定</string>
+	<string name="menu.nav.switch">切换</string>
+	<string name="menu.nav.new_char">新角色</string>
+	<string name="menu.nav.deposit">存入</string>
+	<string name="menu.nav.withdraw">取出</string>
+	<string name="menu.nav.deposit_to">存入至'%to%'</string>
+	<string name="menu.nav.rename">重新命名</string>
+
+
+
+	<string name="misc.timeletters.hours">时</string>
+	<string name="misc.timeletters.minutes">分</string>
+	<string name="misc.timeletters.seconds">秒</string>
+
+	<string name="misc.unknown">未知</string>
+	<string name="misc.locked">锁定</string>
+	<string name="misc.hold">按住</string>
+
+	<string name="menu.dead.died_title">你死了！</string>
+	<string name="menu.dead.died_text">返回城镇？</string>
+
+	<string name="menu.class.paladin">骑士</string>
+	<string name="menu.class.ranger">游侠</string>
+	<string name="menu.class.rogue">盗贼</string>
+	<string name="menu.class.wizard">巫师</string>
+	<string name="menu.class.warlock">术士</string>
+	<string name="menu.class.sorcerer">魔导士</string>
+	<string name="menu.class.warrior">战士</string>
+
+	<string name="menu.class.paladin.description">一位正义的拥护者，以强大的力量和坚定的信念维护几率。</string>
+	<string name="menu.class.ranger.description">天生的猎人，与自然融为一体，能够利用自然的力量。</string>
+	<string name="menu.class.rogue.description">灵巧且狡猾的剑客，运用机智战术击败敌人。</string>
+	<string name="menu.class.wizard.description">精通秘法的施法者，能以魔法摧毁敌人。</string>
+	<string name="menu.class.warlock.description">黑暗魔法的操控者，擅长操弄敌人的灵魂。</string>
+	<string name="menu.class.sorcerer.description">元素力量的大师，以自然的力量压制敌人。</string>
+	<string name="menu.class.warrior.description">熟悉多种武器的斗士，能抵挡绝大多数的敌人。</string>
+
+
+
+	<string name="menu.colorslot.skin">肤色</string>
+	<string name="menu.colorslot.hair">头发</string>
+	<string name="menu.colorslot.shield_face">盾牌 盾面</string>
+	<string name="menu.colorslot.shield_trim">盾牌 装饰</string>
+	<string name="menu.colorslot.mace">锤</string>
+	<string name="menu.colorslot.helmet">头盔</string>
+	<string name="menu.colorslot.helmet_trim">头盔 装饰</string>
+	<string name="menu.colorslot.breastplate">胸甲</string>
+	<string name="menu.colorslot.shoulder_trim">肩甲 装饰</string>
+	<string name="menu.colorslot.cape">披风</string>
+	<string name="menu.colorslot.cape_trim">披风 装饰</string>
+	<string name="menu.colorslot.hood">兜帽</string>
+	<string name="menu.colorslot.coat">外套</string>
+	<string name="menu.colorslot.scarf">围巾</string>
+	<string name="menu.colorslot.bow">弓</string>
+	<string name="menu.colorslot.vambrace">臂甲</string>
+	<string name="menu.colorslot.bandana">头巾</string>
+	<string name="menu.colorslot.shirt">衬衫</string>
+	<string name="menu.colorslot.shoulder">肩甲</string>
+	<string name="menu.colorslot.hat">帽子</string>
+	<string name="menu.colorslot.robe">长袍</string>
+	<string name="menu.colorslot.book">书本</string>
+	<string name="menu.colorslot.crystal">水晶</string>
+	<string name="menu.colorslot.staff">法杖</string>
+	<string name="menu.colorslot.dagger">匕首</string>
+	<string name="menu.colorslot.dagger_hilt">匕首柄</string>
+	<string name="menu.colorslot.orb">魔法球</string>
+
+
+
+	<string name="menu.charcreate.class">职业</string>
+	<string name="menu.charcreate.class.skills">技能</string>
+	<string name="menu.charcreate.class.gear">初始装备</string>
+	<string name="menu.charcreate.custom">自定义</string>
+
+	<string name="menu.charcreate.custom.features">特征</string>
+	<string name="menu.charcreate.custom.color">颜色</string>
+	<string name="menu.charcreate.custom.voice">声音</string>
+	<string name="menu.charcreate.custom.hair">头发</string>
+	<string name="menu.charcreate.custom.eyes">眼睛</string>
+	<string name="menu.charcreate.custom.nose">鼻子</string>
+	<string name="menu.charcreate.custom.mouth">嘴巴</string>
+	<string name="menu.charcreate.custom.skin">肤色</string>
+	<string name="menu.charcreate.custom.hair">头发</string>
+
+
+	<string name="menu.loadgame.charlevel">LV%level%</string>
+	<string name="menu.loadgame.charlevel_short">LV%level%</string>
+	<string name="menu.loadgame.ngplevel">ng+%ngp%</string>
+	<string name="menu.loadgame.run_resume">您想在 '%name%' 恢复您的进度吗？</string>
+	<string name="menu.loadgame.run_noresume">您目前无法恢复在 '%name%' 的进度。是否放弃该进度？</string>
+	<string name="menu.loadgame.delete">确定要删除您的 等级%level%%class%, '%name%'？</string>
+
+
+	<string name="menu.guild.statistics">统计数据</string>
+	<string name="menu.guild.statistics.run">本局</string>
+	<string name="menu.guild.statistics.char">角色</string>
+	<string name="menu.guild.statistics.total">总计</string>
+	<string name="menu.guild.accomplishments">成就</string>
+	<string name="menu.guild.accomplishments.info">成就奖励对所有角色生效。</string>
+	<string name="menu.guild.accomplishments.awarded">已获得：</string>
+	<string name="menu.guild.itemiary">饰品</string>
+	<string name="menu.guild.itemiary.empty">找到饰品以填满此清单。</string>
+	<string name="menu.guild.titles">称号</string>
+	<string name="menu.guild.titles.info">称号加成对所有角色生效。</string>
+	
+	
+	<string name="menu.enchanter.no_equipment">您没有可附魔的装备。</string>
+	<string name="menu.enchanter.no_modifiers">您没有可用的附魔，请寻找更多蓝图。</string>
+	<string name="menu.enchanter.upgrade">升级至%quality%</string>
+	<string name="menu.enchanter.enchant">附魔。</string>
+
+	<string name="menu.library.no_attunement">您没有饰品可调整，请寻找更多蓝图。</string>
+
+
+
+	<!-- Player Menu -->
+	<string name="menu.player.map">地图</string>
+	<string name="menu.player.char">角色</string>
+	<string name="menu.player.char.experience">经验值：%exp%/%expmax%(%prog%%)</string>
+	<string name="menu.player.char.level">等级%lvl%</string>
+	<string name="menu.player.char.level_cap">等级上限：%lvl%</string>
+	<string name="menu.player.char.inventory">背包</string>
+	<string name="menu.player.char.trinkets">饰品</string>
+	<string name="menu.player.char.equipment">装备</string>
+	<string name="menu.player.char.equipment.destroy_confirm">您确定要销毁“%name%”吗？</string>
+	<string name="menu.player.char.materials">材料</string>
+	<string name="menu.player.char.materials.run">本局</string>
+	<string name="menu.player.char.materials.town">城镇</string>
+	<string name="menu.player.mods">信息</string>
+	<string name="menu.player.mods.skills">技能</string>
+	<string name="menu.player.mods.stats">属性</string>
+	<string name="menu.player.mods.effects">效果</string>
+	<string name="menu.player.mods.stats.attributes">属性点</string>
+	<string name="menu.player.mods.stats.pools">点数池</string>
+	<string name="menu.player.mods.stats.protection">防御</string>
+	<string name="menu.player.mods.stats.utility">其他</string>
+	<string name="menu.player.mods.stats.attack">武器</string>
+	<string name="menu.player.mods.stats.spell">技能</string>
+	<string name="menu.player.mods.stats.penetration">穿透</string>
+	<string name="menu.player.mods.stats.multiplier">倍率</string>
+	<string name="menu.player.mods.stats.resources">资源</string>
+
+	<string name="menu.player.mods.stats.source.weapon_mastery">武器专精</string>
+	<string name="menu.player.mods.stats.source.base">基础</string>
+	<string name="menu.player.mods.stats.source.picked">分配</string>
+	<string name="menu.player.mods.stats.source.ngp">NG+%num%</string>
+	<string name="menu.player.mods.stats.source.accomplishments">成就</string>
+	<string name="menu.player.mods.stats.source.attributes">属性</string>
+	<string name="menu.player.mods.stats.source.shadow_curse">%num% 暗影诅咒</string>
+	<string name="menu.player.mods.stats.source.locked">已锁定</string>
+
+
+
+
+
+	<string name="menu.player.mods.effects.shadow_curse.name">暗影诅咒</string>
+	<string name="menu.player.mods.effects.shadow_curse.desc">每层诅咒降低%amnt-stack%护甲与全抗性，总计%amnt-total%。</string>
+
+
+	<string name="menu.player.skills.currpoints">可分配点数：%points%\"icn-skillpt"</string>
+	<string name="menu.player.skills.upgrade">升级：%cost%\"icn-skillpt"</string>
+	<string name="menu.player.skills.required_skill">\n需要%c-highlight%%skill%\d</string>
+	<string name="menu.player.skills.blocker_skill">\n与%c-highlight%%skill%\d 互斥</string>
+	<string name="menu.player.skills.required_skill_dis">\n%c-disabled%需要%skill%\d</string>
+	<string name="menu.player.skills.blocker_skill_dis">\n%c-disabled%因%skill%\d 而关闭</string>
+
+	<string name="menu.player.attrib.currpoints">可分配属性点：%points%\"icn-attrpt"</string>
+	<string name="menu.player.attrib.upgrade">升级：%cost%\"icn-attrpt"</string>
+
+
+
+	<string name="menu.attributes.primary">主属性</string>
+
+
+
+	<string name="menu.attributes.respec.title">重置点数</string>
+	<string name="menu.attributes.respec">是否要花费%cost%来重置%points%\"icn-attrpt"？</string>
+	<string name="menu.attributes.respec_cant_afford">你无法负担重置%points%\"icn-attrpt" 所需的%cost%</string>
+	<string name="menu.skills.respec">是否要花费%cost%来重置%points%\"icn-skillpt"？</string>
+	<string name="menu.skills.respec_cant_afford">你无法负担重置%points%\"icn-skillpt" 所需的%cost%</string>
+
+
+	<string name="menu.char_custom.title">自定义角色</string>
+	<string name="menu.char_custom.rename">输入角色的新名称：</string>
+
+
+
+	<!-- Mission Loadout Menu -->
+	<string name="menu.loadout.potion_warning">您没有药水充能！</string>
+	<string name="menu.loadout.force_start_warning">您确定要在所有人还未准备好之前开始任务吗？</string>
+	<string name="menu.loadout.starting_mission">开始\n%mission%</string>
+	<string name="menu.loadout.alterations">更改</string>
+	<string name="menu.loadout.numready">%ready%/%total%已准备</string>
+	<string name="menu.loadout.waiting_num">等待%num%位玩家。</string>
+	<string name="menu.loadout.waiting_plrs">等待%players%。</string>
+	<string name="menu.loadout.ngp">New Game+%ngp%</string>
+	<string name="menu.loadout.food">食物 </string>
+	<string name="menu.loadout.drinks">酒水 </string>
+
+
+	<string name="menu.mission_end.completed">任务完成！</string>
+	<string name="menu.mission_end.failed">\cff0202任务失败！</string>
+	<string name="menu.mission_end.aborted">\cffb508任务中止！</string>
+	<string name="menu.mission_end.new_game_plus">恭喜，您击败了黑暗化身！这解锁了此角色的NG+，并且等级上限提升5级。NG+代表更高的难度与更丰富的奖勋。NG+等级可以在开始任时务选择</string>
+	
+	<string name="menu.mission_end.materials">材料</string>
+	<string name="menu.mission_end.stats">统计</string>
+	
+	<string name="menu.mission_end.step.sent_back">已送回：</string>
+	<string name="menu.mission_end.step.picked_up">已拾取：</string>
+	<string name="menu.mission_end.step.valuables">贵重物品：</string>
+	<string name="menu.mission_end.step.trinkets.common">普通饰品：</string>
+	<string name="menu.mission_end.step.trinkets.uncommon">罕见饰品：</string>
+	<string name="menu.mission_end.step.trinkets.rare">稀有饰品：</string>
+	<string name="menu.mission_end.step.trinkets.epic">史诗饰品：</string>
+	<string name="menu.mission_end.step.revive">复活捐赠（教堂：%rate%%)：</string>
+	<string name="menu.mission_end.step.reward">任务奖励：</string>
+
+
+	<string name="menu.player_stash.withdraw">取出</string>
+	<string name="menu.player_stash.deposit">存入</string>
+	<string name="menu.player_stash.new_tab">新标签</string>
+	<string name="menu.player_stash.rename">重命名</string>
+	<string name="menu.player_stash.rename_tab">为你的标签输入新名称：</string>
+	<string name="menu.player_stash.delete">删除</string>
+	<string name="menu.player_stash.delete_tab">你确定要删除标签「%name%」吗？</string>
+	<string name="menu.player_stash.delete_tab_empty">必须清空标签中的装备才能删除。</string>
+	
+
+
+
+	<!-- Main Menu -->
+	<string name="mainmenu.continue">继续</string>
+	<string name="mainmenu.exitgame">退出游戏</string>
+	<string name="mainmenu.host">主持多人游戏</string>
+	<string name="mainmenu.switchchar">切换角色</string>
+	<string name="mainmenu.online">在线游戏</string>
+	<string name="mainmenu.multiplayer">多人游戏</string>
+	<string name="mainmenu.singleplayer">单人游戏</string>
+	<string name="mainmenu.options">选项</string>
+	<string name="mainmenu.extras">特典</string>
+	<string name="mainmenu.quit">退出</string>
+	<string name="mainmenu.discord">Discord</string>
+	<string name="mainmenu.leave">离开游戏</string>
+	<string name="mainmenu.playerlist">大厅</string>
+	<string name="mainmenu.abandon">放弃进行中的游戏</string>
+	<string name="mainmenu.profiles">保存个人档案</string>
+	<string name="mainmenu.profiles.title">选择个人档案</string>
+	
+	<string name="mainmenu.abandon.confirm">你确定要放弃这次挑战吗？这将使你返回城镇</string>
+	<string name="mainmenu.exitgame.confirm">你确定要退出游戏吗？</string>
+	<string name="mainmenu.exitgame.confirm_resume">你确定要退出游戏吗？你将可以在未来继续此次挑战</string>
+	
+	<string name="mainmenu.profiles.delete.confirm">你确定要删除 '%name%' 存档吗？此操作无法还原且永久删除</string>
+	<string name="mainmenu.profiles.delete.confirm_cloud">你确定要删除 '%name%' 云端存档吗？此操作无法还原且永久删除</string>
+	<string name="mainmenu.profiles.copy.confirm">你希望将 '%name%' 存档复制到哪里？</string>
+	<string name="mainmenu.profiles.copy.confirm_cloud">你希望将 '%name%' 云端存档复制到哪里？</string>
+	<string name="mainmenu.profiles.new.confirm">你希望在哪里创建新的存档？</string>
+	<string name="mainmenu.profiles.confirm.local">本地</string>
+	<string name="mainmenu.profiles.confirm.cloud">Steam 云端</string>
+	
+
+	<string name="mainmenu.host.privacy">您希望开放一个公开的大厅给所有人，还是仅限好友的私人大厅？</string>
+	<string name="mainmenu.host.privacy.yes">公开</string>
+	<string name="mainmenu.host.privacy.no">私人</string>
+
+
+	<string name="mainmenu.languages.restart-confirm">更改语言需要重启游戏！</string>
+	<string name="mainmenu.serverlist.title">大厅</string>
+	<string name="mainmenu.multiplayer.disabled">多人游戏目前无法使用。</string>
+	<string name="mainmenu.multiplayer.connecting">正在连接...</string>
+	<string name="mainmenu.lobby.suffix">的大厅#爬NG</string>
+
+
+
+
+	<string name="building.apothecary.name">药剂师</string>
+	<string name="building.apothecary.desc1">解锁药水升级。</string>
+	<string name="building.apothecary.desc2">解锁更多药水升级。</string>
+
+	<string name="building.architect.name">建筑师</string>
+	<string name="building.architect.desc1">为建筑师提供一个房屋，让您能修改每局游戏中黑暗堡垒的各种方面。</string>
+	<string name="building.architect.desc2">解锁更多效果，并降低激活复数效果的费用。</string>
+
+	<string name="building.blacksmith.name">铁匠铺</string>
+	<string name="building.blacksmith.desc1">解锁盔甲和武器购买。</string>
+	<string name="building.blacksmith.desc2">更好的盔甲和武器升级，并且允许装备升级。</string>
+	<string name="building.blacksmith.desc3">更好的盔甲和武器升级，并且升级费用降低。</string>
+
+	<string name="building.chapel.name">教堂</string>
+	<string name="building.chapel.desc1">为神建设的房屋，让您能在本局游戏中选择祝福。\n\n-5%复活费用</string>
+	<string name="building.chapel.desc2">解锁更多祝福。\n\n-5%复活费用</string>
+	<string name="building.chapel.desc3">解锁更多祝福。\n\n-5%复活费用</string>
+
+	<string name="building.enchanter.name">附魔师</string>
+	<string name="building.enchanter.desc1">允许附魔并修改装备。\n\n解锁附魔蓝图。</string>
+	<string name="building.enchanter.desc2">附魔费用降低。\n\n解锁稀有附魔蓝图。</string>
+
+	<string name="building.general_store.name">杂货店</string>
+	<string name="building.general_store.desc1">可购买和卖出装备。</string>
+	<string name="building.general_store.desc2">更好的价格，可购买更高等级的装备。</string>
+	<string name="building.general_store.desc3">更好的价格，可购买装备等级不再受限。</string>
+
+	<string name="building.guild_hall.name">公会大厅</string>
+	<string name="building.guild_hall.desc1">升级城镇，解锁更多建筑。</string>
+	<string name="building.guild_hall.desc3">升级城镇，解锁更多建筑\n\n解锁职业大师.</string>
+
+	<string name="building.hunters_cabin.name">猎人小屋</string>
+	<string name="building.hunters_cabin.desc1">甲虫、狼和野猪可以掉落鳞片、皮毛和肉类。允许从野兽获得珍贵物品和生命拾取品</string>
+	<string name="building.hunters_cabin.desc2">从野兽获得更多珍贵物品和生命拾取品</string>
+
+	<string name="building.library.name">图书馆</string>	
+	<string name="building.library.desc1">解锁普通饰品共鸣。可以更改您的连击技能。</string>
+	<string name="building.library.desc2">解锁罕见饰品共鸣。</string>
+	<string name="building.library.desc3">解锁稀有饰品共鸣。</string>
+
+
+	<string name="building.magic_shop.name">魔法商店</string>
+	<string name="building.magic_shop.desc1">解锁魔法升级\n\n允许开始游戏时选择技能球\n\n在游戏结束时将饰品换成材料</string>
+	<string name="building.magic_shop.desc2">解锁更多魔法升级\n\n解锁更多技能球供选择</string>
+	<string name="building.magic_shop.desc3">解锁更多魔法升级</string>
+
+	<string name="building.pyre.name">火堆</string>
+	<string name="building.pyre.desc1">-20%阴影诅咒效果\n\n允许从火盆中移除更多诅咒</string>
+
+	<string name="building.tailor.name">裁缝师</string>
+	<string name="building.tailor.desc1">无任何效果</string>
+
+	<string name="building.tavern.name">酒馆</string>
+	<string name="building.tavern.desc1">开始游戏时获得饮料与食物\n\n解锁饮品蓝图</string>
+	<string name="building.tavern.desc2">开始游戏时选择更多饮料。</string>
+
+	<string name="building.trading_post.name">贸易站</string>
+	<string name="building.trading_post.desc1">可以购买和卖出木材</string>
+	<string name="building.trading_post.desc2">可以购买和卖出石材\n\n改善木材的价格。</string>
+	<string name="building.trading_post.desc3">可以购买和卖出铁\n\n改善木材和石材的价格。</string>
+
+	<string name="building.training_grounds.name">训练室</string>
+	<string name="building.training_grounds.desc1">训练玩家技能\n\n解锁属性与技能升级</string>
+	<string name="building.training_grounds.desc2">解锁更多属性与技能升级</string>
+	<string name="building.training_grounds.desc3">解锁更多属性与技能升级\n\n解锁武器精通.</string>
+
+
+
+
+
+	<string name="building.tier">%tier%阶</string>
+	<string name="building.build.new">新建筑</string>
+	<string name="building.build.upgrade">升级至%num%阶</string>
+
+
+	<string name="weapon_mastery.bonus.first">增加%add%伤害</string>
+	<string name="weapon_mastery.bonus.curr">%curr%伤害。增加%add%</string>
+
+	<string name="weapon_mastery.maces">锤</string>
+	<string name="weapon_mastery.swords">剑</string>
+	<string name="weapon_mastery.axes">斧</string>
+	<string name="weapon_mastery.daggers">匕首</string>
+	<string name="weapon_mastery.bows">弓</string>
+	<string name="weapon_mastery.crossbows">弩</string>
+	<string name="weapon_mastery.wands">魔杖</string>
+	<string name="weapon_mastery.tomes">法典</string>
+	<string name="weapon_mastery.staffs">法杖</string>
+
+
+
+	<string name="architect.cost_mul">倍率：%mul%</string>
+
+	<string name="architect.far_sight.name">远视</string>
+	<string name="architect.far_sight.desc">消除地图迷雾。</string>
+	<string name="architect.way_gates.name">传送门</string>
+	<string name="architect.way_gates.desc">在重要地点之间快速旅行。</string>
+	<string name="architect.toppled_towers.name">倒塌塔楼</string>
+	<string name="architect.toppled_towers.desc">摧毁地图中的攻击塔楼。</string>
+	<string name="architect.fewer_enemies.name">防御薄弱</string>
+	<string name="architect.fewer_enemies.desc">减少关卡中的敌人。</string>
+	<string name="architect.safe_corridors.name">安全走廊</string>
+	<string name="architect.safe_corridors.desc">关闭走廊中的陷阱。</string>
+	<string name="architect.gentle_traps.name">溫和陷阱</string>
+	<string name="architect.gentle_traps.desc">陷阱造成的伤害減少 50%</string>
+	<string name="architect.fewer_elites.name">训练不足</string>
+	<string name="architect.fewer_elites.desc">减少关卡中的精英敌人。</string>
+	<string name="architect.more_pyre.name">圣洁之焰</string>
+	<string name="architect.more_pyre.desc">增加找到火堆的频率。</string>
+	<string name="architect.more_treasury.name">寻宝</string>
+	<string name="architect.more_treasury.desc">增加找到宝箱频率。</string>
+	<string name="architect.material_farmer.name">资源狂热</string>
+	<string name="architect.material_farmer.desc">替换饰品宝箱为资源补给箱，替换经验卷轴为材料。</string>
+	<string name="architect.insta_revive.name">快速复活</string>
+	<string name="architect.insta_revive.desc">多人游戏中，复活他人的时间缩短至0。</string>
+
+
+
+
+	<!-- Options -->
+	<string name="menu.unsaved_dialog">有未保存的变更，是否保存？</string>
+
+	<string name="menu.o.game">游戏</string>
+	<string name="menu.o.graphics">图形</string>
+	<string name="menu.o.sound">声音</string>
+	<string name="menu.o.ctrls">控制设置</string>
+
+	<string name="menu.resume">恢复</string>
+	<string name="menu.off">关闭</string>
+	<string name="menu.on">开启</string>
+	<string name="menu.none">无</string>
+	<string name="menu.all">全部</string>
+	<string name="menu.low">低</string>
+	<string name="menu.medium">中</string>
+	<string name="menu.high">高</string>
+	<string name="menu.defaults">重置</string>
+	<string name="menu.defaults.help">重置所有设置为默认值</string>
+	<string name="menu.change">变更</string>
+	<string name="menu.defaults_dialog">是否重置所有设置为默认值？</string>
+
+	<!-- Game Options -->
+
+	<string name="menu.game.defaults_dialog">是否将所有游戏设置重置为默认值？</string>
+	<string name="g_language">语言</string>
+	<string name="g_language.help">显示语言</string>
+	<string name="g_gore">血腥</string>
+	<string name="g_gore.help">显示血块与内脏</string>
+	<string name="ui_cursor_alpha">光标透明度</string>
+	<string name="ui_cursor_alpha.help">光标的透明度</string>
+	<string name="ui_overlay_minimap_alpha">小地图透明度</string>
+	<string name="ui_overlay_minimap_alpha.help">小地图的透明度</string>
+	<string name="g_txt">拾取信息</string>
+	<string name="g_txt.help">显示物品拾取信息</string>
+	<string name="menu.crumb.options.game">选项</string>
+	<string name="menu.game.texts">文本</string>
+	<string name="menu.game.texts.help">切换个别浮动文本</string>
+	<string name="ui_hud_hpbars_enemy">显示敌人血条</string>
+	<string name="ui_hud_hpbars_enemy.help">显示敌人生命值</string>
+	<string name="menu.game.show-damaged">受到伤害时</string>
+
+	<string name="menu.game.hud.overlay.always.show">总是显示 HUD </string>
+	<string name="menu.game.hud.overlay.always.show.tooltip">显示时间和金币</string>
+
+	<string name="menu.game.loot.filter.all">全部</string>
+	<string name="menu.game.loot.filter.self">自己</string>
+	<string name="menu.game.loot.filter.others">其他人</string>
+
+	<!-- Game Options Texts -->
+
+	<string name="menu.game.texts.defaults_dialog">是否将所有浮动文本设置重置为默认值？</string>
+	<string name="g_txt_plr_hurt">玩家伤害</string>
+	<string name="g_txt_plr_hurt.help">显示玩家伤害文本。</string>
+	<string name="g_txt_enemy_hurt">敌人伤害</string>
+	<string name="g_txt_enemy_hurt.help">显示敌人伤害文本。</string>
+	<string name="g_txt_plr_heal">玩家治疗</string>
+	<string name="g_txt_plr_heal.help">显示玩家治疗文本。</string>
+	<string name="g_txt_enemy_heal">敌人治疗</string>
+	<string name="g_txt_enemy_heal.help">显示敌人的治疗文本。</string>
+	<string name="g_txt_enemy_immortal">敌人无敌</string>
+	<string name="g_txt_enemy_immortal.help">显示敌人免疫伤害文本。</string>
+	<string name="g_txt_plr_armor">玩家装甲</string>
+	<string name="g_txt_plr_armor.help">显示玩家拾取装甲的文本。</string>
+	<string name="g_txt_plr_ammo">玩家弹药</string>
+	<string name="g_txt_plr_ammo.help">显示玩家拾取弹药的文本。</string>
+	<string name="g_txt_pickup">玩家拾取</string>
+	<string name="g_txt_pickup.help">显示玩家拾取的文本。</string>
+	
+	<string name="menu.automatic">自动</string>
+	<string name="g_laser_sight">瞄准辅助</string>
+	<string name="g_laser_sight.help">显示一条用于协助瞄准的细线。</string>
+	
+	
+	
+	
+	
+	<string name="g_screenshake">屏幕震动</string>
+	<string name="g_screenshake.help">控制游戏中的屏幕震动强度</string>
+
+	<string name="ui_txt">浮动文本</string>
+	<string name="ui_txt.help">显示如伤害数字或拾取资讯的浮动文本</string>
+
+	<string name="ui_speechbubble_alpha">对话框透明度</string>
+	<string name="ui_speechbubble_alpha.help">对话框的透明度</string>
+
+	<string name="ui_cursor_health">鼠标挂载状态</string>
+	<string name="ui_cursor_health.help">在准心旁边环绕你的生命和魔法值</string>
+	<string name="ui_show_tutorials">教学</string>
+	<string name="ui_show_tutorials.help">显示教学提示</string>
+	<string name="ui_show_tutorials_important">重要信息</string>
+
+	<string name="ui_minimap_alpha">小地图透明度</string>
+	<string name="ui_minimap_alpha.help">小地图覆盖层的透明度</string>
+
+	<string name="ui_draw_plr_names">玩家名称</string>
+	<string name="ui_draw_plr_names.help">在多人游戏中显示玩家名称</string>
+	<string name="ui_draw_plr_names.onlytown">只在城镇中</string>
+	<string name="ui_draw_plr_names_real">真实玩家名称</string>
+	<string name="ui_draw_plr_names_real.help">在多人游戏中显示真实玩家名称，而非英雄名称</string>
+
+	<string name="ui_txt_enemy_hurt_husk">远端伤害数字</string>
+	<string name="ui_txt_enemy_hurt_husk.help">是否显示其他玩家对敌人造成的伤害</string>
+	<string name="ui_txt_enemy_hurt_local">本地伤害数字</string>
+	<string name="ui_txt_enemy_hurt_local.help">是否显示你对敌人造成的伤害</string>
+
+	<string name="ui_hud_loot_filter.show_all">显示全部</string>
+	<string name="ui_hud_loot_filter.quest_only">仅任务物品</string>
+
+	<string name="ui_hud_loot_announce">启用战利品日志</string>
+	<string name="ui_hud_loot_announce.help">在屏幕上显示拾取的物品</string>
+	<string name="ui_hud_loot_amount">启用数量</string>
+	<string name="ui_hud_loot_amount.help">显示物品数量</string>
+	<string name="ui_hud_loot_announce_looter">拾取者</string>
+	<string name="ui_hud_loot_announce_looter.help">筛选你希望显示的物品拾取者</string>
+	<string name="ui_hud_loot_announce_threshold">最低品质显示</string>
+	<string name="ui_hud_loot_announce_threshold.help">不显示低于某个品质的物品</string>
+
+	<!-- Options Graphics -->
+
+	<string name="menu.graphics.defaults_dialog">是否将所有图形设置重置为默认值？</string>
+	<string name="v_resolution">分辨率</string>
+	<string name="v_resolution.help">屏幕分辨率</string>
+	<string name="bgfx_renderer">渲染器 API</string>
+	<string name="bgfx_renderer.help">选择要使用的渲染器</string>
+	<string name="bgfx_renderer.gl">OpenGL</string>
+	<string name="bgfx_renderer.dx9">DirectX 9</string>
+	<string name="bgfx_renderer.dx11">DirectX 11</string>
+	<string name="v_fullscreen">全屏</string>
+	<string name="v_fullscreen.help">使用全屏模式</string>
+	<string name="v_fullscreen.windowed">无边框</string>
+	<string name="v_vsync">垂直同步</string>
+	<string name="v_vsync.help">启用垂直同步</string>
+	<string name="v_vsync.dynamic">自适应</string>
+	<string name="v_fps_limit">帧率上限</string>
+	<string name="v_fps_limit.help">将帧率限制为特定值</string>
+	<string name="r_smooth_scrolling">平滑滚动</string>
+	<string name="r_smooth_scrolling.help">平滑滚动画面</string>
+	<string name="r_hdr">改善光照精确度</string>
+	<string name="r_hdr.help">减少灯光造成的带状效果</string>
+	<string name="r_light_decal_proj">光照投射</string>
+	<string name="r_light_decal_proj.help">投射光线至墙壁</string>
+	<string name="r_shadows">阴影</string>
+	<string name="r_shadows.help">启用阴影投射</string>
+	<string name="r_shadows.sun">太阳</string>
+	<string name="r_draw_xray">X光</string>
+	<string name="r_draw_xray.help">显示墙后的玩家与敌人</string>
+	<string name="rg_brightness">亮度</string>
+	<string name="rg_gamma">gamma</string>
+	<string name="rg_contrast">对比度</string>
+	<string name="rg_crt_curve">CRT曲面效果</string>
+	<string name="v_forced_aspectratio">强制屏幕比例</string>
+	<string name="v_forced_aspect_ratio.help">强制屏幕比例</string>
+	<string name="v_forced_aspect_ratio">屏幕比例</string>
+	<string name="rg_pixel_perfect">像素完美渲染</string>
+	<string name="rg_pixel_perfect.help">提供更真实的低分辨率外观，但可能会造成画面卡顿</string>
+	<string name="r_draw_glow">发光效果</string>
+	<string name="r_draw_glow.help">显示发光效果</string>
+	<string name="r_draw_bloom">泛光效果</string>
+	<string name="r_draw_bloom.help">显示泛光效果</string>
+	<string name="r_environmental_detail">环境细节</string>
+	<string name="r_environmental_detail.help">隐藏环境细节</string>
+	<string name="r_draw_color_grade">色彩调整</string>
+	<string name="r_draw_color_grade.help">执行色彩调整</string>
+
+	<!-- Options Sound -->
+
+	<string name="menu.sound.defaults_dialog">是否将所有音效设置重置为默认值？</string>
+	<string name="snd_volume">主音量</string>
+	<string name="snd_volume_music">音乐</string>
+	<string name="snd_volume_sfx">音效</string>
+	<string name="snd_volume_voice">语音</string>
+	<string name="snd_volume_env">环境音效</string>
+	<string name="snd_volume_ui">界面音效</string>
+
+	<!-- Options Controls -->
+
+	<string name="menu.crumb.options.controls">选项</string>
+	<string name="menu.controls.defaults_dialog">是否将所有控制设置重置为默认值？</string>
+	<string name="menu.controls.player">玩家</string>
+	<string name="menu.controls.player.help">要更改控制设定的玩家</string>
+
+	<string name="menu.controls.layout">控制配置</string>
+	<string name="menu.controls.layout.help">此玩家要使用的基本控制方案</string>
+	<string name="menu.controls.layout.kbm">键鼠</string>
+	<string name="menu.controls.layout.gp1">手柄 1</string>
+	<string name="menu.controls.layout.gp2">手柄 2</string>
+	<string name="menu.controls.layout.gp3">手柄 3</string>
+	<string name="menu.controls.layout.gp4">手柄 4</string>
+
+	<string name="menu.controls.move">移动</string>
+	<string name="menu.controls.move.help">移动玩家的方式</string>
+	<string name="menu.controls.move.keyboard">键盘</string>
+	<string name="menu.controls.move.gp_left">手柄：左摇杆</string>
+	<string name="menu.controls.move.gp_right">手柄：右摇杆</string>
+
+	<string name="menu.controls.aim">瞄准</string>
+	<string name="menu.controls.aim.help">瞄准武器的方式</string>
+	<string name="menu.controls.aim.mouse">滑鼠</string>
+	<string name="menu.controls.aim.gp_right">手柄：右摇杆</string>
+	<string name="menu.controls.aim.gp_left">手柄：左摇杆</string>
+
+	<string name="menu.controls.custom">自订</string>
+	<string name="menu.controls.up">上</string>
+	<string name="menu.controls.down">下</string>
+	<string name="menu.controls.left">左</string>
+	<string name="menu.controls.right">右</string>
+	<string name="menu.controls.back">返回</string>
+	<string name="menu.controls.attack">攻击</string>
+	<string name="menu.controls.dash">冲刺</string>
+	<string name="menu.controls.reload">重新装填</string>
+	<string name="menu.controls.use">使用</string>
+
+	<string name="menu.controls.menu.up">菜单中：上</string>
+	<string name="menu.controls.menu.down">菜单中：下</string>
+	<string name="menu.controls.menu.left">菜单中：左</string>
+	<string name="menu.controls.menu.right">菜单中：右</string>
+	<string name="menu.controls.menu.forward">菜单中：确认</string>
+	<string name="menu.controls.menu.back">关闭菜单</string>
+	<string name="menu.controls.menu.toggle">MENU TOGGLE</string>
+	<string name="menu.controls.menu.chatall">聊天 </string>
+	<string name="menu.controls.menu.chatteam">队伍聊天</string>
+
+	<string name="menu.controls.mainhandattack">主武器</string>
+	<string name="menu.controls.offhandattack">副武器</string>
+	<string name="menu.controls.charge">冲刺</string>
+	<string name="menu.controls.skill1">技能 1</string>
+	<string name="menu.controls.skill2">技能 2</string>
+	<string name="menu.controls.skill3">技能 3</string>
+	<string name="menu.controls.skill4">技能 4</string>
+	<string name="menu.controls.potion">药水</string>
+	<string name="menu.controls.playermenu">玩家选单</string>
+	<string name="menu.controls.mapoverlay">覆盖地图</string>
+	<string name="menu.controls.playermap">玩家选单地图</string>
+	<string name="menu.controls.guildhall">公会选单</string>
+	
+	<string name="menu.controls.actionmenu">行动选单</string>
+	<string name="menu.controls.contextmenu">上下文选单</string>
+	<string name="menu.controls.menuadditional">附加选单</string>
+	<string name="menu.controls.menunexttab">下一页</string>
+	<string name="menu.controls.menuprevioustab">上一页</string>
+	<string name="menu.controls.menunextsubtab">下一子页</string>
+	<string name="menu.controls.menuprevioussubtab">上一子页</string>
+
+	<string name="menu.controls.menuup">菜单中：上</string>
+	<string name="menu.controls.menudown">菜单中：下</string>
+	<string name="menu.controls.menuleft">菜单中：左</string>
+	<string name="menu.controls.menuright">菜单中：右</string>
+	<string name="menu.controls.menuforward">菜单中：确认</string>
+	<string name="menu.controls.menuback">退出菜单</string>
+	<string name="menu.controls.menutoggle">开启菜单</string>
+
+	<string name="menu.controls.move_y.axis1">向上移动</string>
+	<string name="menu.controls.move_y.axis2">向下移动</string>
+	<string name="menu.controls.move_x.axis1">向左移动</string>
+	<string name="menu.controls.move_x.axis2">向右移动</string>
+
+	<string name="menu.controls.menuchatall">聊天</string>
+
+	<string name="menu.input.leftmouse">LMB</string>
+	<string name="menu.input.middlemouse">MMB</string>
+	<string name="menu.input.rightmouse">RMB</string>
+	<string name="menu.input.mousewheelup">SCROLL UP</string>
+	<string name="menu.input.mousewheeldown">SCROLL DOWN</string>
+	<string name="menu.input.mousenum">MOUSE%num%</string>
+
+	<string name="menu.input.invert">反向</string>
+
+	<string name="menu.loading">载入中</string>
+	<string name="menu.loading."></string>
+	<string name="menu.loading.setting_scenario">载入场景</string>
+	<string name="menu.loading.loading_level">载入关卡</string>
+	<string name="menu.loading.start_level">开始关卡</string>
+	<string name="menu.loading.wait_scenario_set">等待场景载入</string>
+	<string name="menu.loading.wait_loaded_level">等待关卡载入</string>
+	<string name="menu.loading.wait_started_level">等待关卡开始</string>
+
+	<!-- Singleplayer Menu -->
+
+	<string name="menu.startgame">开始游戏</string>
+
+	<string name="tooltip.header.active.trinket">生效中</string>
+	<string name="tooltip.header.active.equipment">已装备</string>
+	<string name="tooltip.header.blueprint">蓝图</string>
+	<string name="tooltip.header.current">当前</string>
+	<string name="tooltip.header.attuned">共鸣</string>
+	<string name="tooltip.equipment.ilvl">装备等级：%ilvl%</string>
+	<string name="tooltip.stats.required">需求: </string>
+
+	<string name="blueprint.category.drink">酒馆酒水</string>
+	<string name="blueprint.category.food">酒馆食物</string>
+	<string name="blueprint.category.enchantment">装备附魔</string>
+	<string name="blueprint.category.trinket">饰品</string>
+
+
+
+
+	<string name="menu.traveling_cook.givefood">流动厨师给了你一份 %buff%</string>
+	<string name="menu.traveling_monk.giveblessing">流浪僧侣赋予你 %buff%</string>
+	<string name="menu.shady_trader.get">获得%amount%</string>
+	<string name="menu.shady_trader.lose">支付%amount%</string>
+	<string name="menu.shady_trader.nothing">什么也没发生</string>
+	<string name="menu.shady_trader.option">选项%num%</string>
+	<string name="menu.shady_trader.trade">=== 交易 ==></string>
+	<string name="menu.thunderbird.nothing">你没有任何物品可以送回城镇。</string>
+	<string name="menu.thunderbird.sendback">你想将\n%mats%送回城镇吗？</string>
+	<string name="menu.shadow_rift.cursecost">+%amount%暗影诅咒</string>
+	<string name="menu.shadow_rift.pick">选择任意数量的礼物：</string>
+	<string name="menu.shadow_rift.picked">你选择了：</string>
+	<string name="menu.subclass.title">职业晋升</string>
+	<string name="menu.subclass.skill.active">主动技能</string>
+	<string name="menu.subclass.skill.passive">被动技能</string>
+
+
+	<string name="menu.imp.announce.1">咦，那是个小恶魔吗？</string>
+	<string name="menu.imp.announce.2">一只小恶魔！它应该就在附近。</string>
+	<string name="menu.imp.nothing">小恶魔什么也没给你！</string>
+	<string name="menu.imp.givemats">小恶魔给了你%mats%！</string>
+	<string name="menu.imp.sendbackmats">小恶魔将你的%mats%传送到了城镇！</string>
+	<string name="menu.imp.remscurse">小恶魔净化了%amount%点暗影诅咒！</string>
+	<string name="menu.imp.equipupgrade">小恶魔提升了你的装备%item%的等级！</string>
+	<string name="menu.imp.equipupgradequal">小恶魔将你的装备%item%的品质升级为了%quality%！</string>
+
+
+
+
+	<!-- Scenario Menu -->
+	
+	<string name="menu.lobby.chat.namechanged">大厅名称已变为："%name%"</string>
+
+	<string name="menu.lobby.wait.hosting">正在创建大厅...</string>
+	<string name="menu.lobby.wait.joining">正在加入大厅...</string>
+	<string name="menu.lobby.title.hosting">大厅：主持中</string>
+	<string name="menu.lobby.title.joining">大厅：已加入</string>
+
+	<string name="menu.notifier.lostconnection">连线中断。</string>
+	<string name="menu.lobby.abort.prompt">你确定要解散大厅吗？</string>
+	<string name="menu.lobby.leave.prompt">你确定要离开大厅吗？</string>
+	<string name="menu.lobby.close_lobby">关闭大厅</string>
+	<string name="menu.lobby.close_lobby.confirm">你确定吗？这将踢出任何连接到你游戏的玩家。</string>
+	<string name="menu.lobby.kick_player.confirm">确定要将玩家「%name%」踢出游戏吗？</string> 
+
+	<string name="menu.lobby.chat.isjoined">%name%已加入。</string>
+	<string name="menu.lobby.chat.isleft">%name%已离开。</string>
+	<string name="menu.lobby.chat.iskicked">%name%被踢出。</string>
+	<string name="menu.lobby.chat.isready">%name%已准备。</string>
+	<string name="menu.lobby.chat.isunready">%name%解除了准备。</string>
+
+	<string name="menu.lobby.chat.died">%name%阵亡了！</string>
+	<string name="menu.lobby.chat.revive">%revivee%被%reviver%复活了！</string>
+	<string name="menu.lobby.chat.revive.free">%revivee%再次复活！</string>
+
+	<string name="menu.lobby.info.maxplayers.server">服务器最大玩家数：</string>
+
+	<string name="menu.lobby.ready">准备</string>
+	<string name="menu.lobby.unready">取消准备</string>
+	<string name="menu.lobby.start">开始</string>
+	<string name="menu.lobby.start.wait">强制开始</string>
+	<string name="menu.lobby.switchcount">%a%/%b%启动中</string>
+	<string name="menu.lobby.readycount">%a%/%b%已准备</string>
+	<string name="menu.lobby.private">私人</string>
+	<string name="menu.lobby.abort">中止</string>
+	<string name="menu.lobby.leave">离开</string>
+
+	<string name="menu.lobby.title">开设房间</string>
+	<string name="menu.lobby.switches">切换功能</string>
+	<string name="menu.lobby.resmods">调整项目</string>
+
+	<string name="menu.lobby.info.town_ngp">城镇 NG+%ngp%</string>
+
+	<string name="menu.mplayer.clobby">开设房间</string>
+	<string name="menu.mplayer.slist">服务器列表</string>
+
+	<string name="menu.serverlist.title">服务器列表</string>
+	<string name="menu.serverlist.refresh">刷新</string>
+
+
+	<string name="exit.notall">你必须集合你的队伍，才能继续冒险！</string>
+	<string name="character.stat.level">等级%level%</string>
+
+
+
+
+
+	<!-- statistics -->
+	<string name="menu.stats.cat.skill_dmg">技能伤害</string>
+	<string name="menu.stats.cat.combat">战斗</string>
+	<string name="menu.stats.cat.economy">经济</string>
+	<string name="menu.stats.cat.adventuring">冒险</string>
+
+
+	<!-- Item Info Tooltip -->
+
+	<string name="item.info.tooltip.requirement.str">\"icn-str"%val%</string>
+	<string name="item.info.tooltip.requirement.dex">\"icn-dex"%val%</string>
+	<string name="item.info.tooltip.requirement.int">\"icn-int"%val%</string>
+	<string name="item.info.tooltip.requirement.foc">\"icn-foc"%val%</string>
+	<string name="item.info.tooltip.requirement.vit">\"icn-vit"%val%</string>
+	<string name="item.info.tooltip.price">\"icn-money"%val%</string>
+	<string name="item.info.tooltip.experience">\"icn-exp"%val%</string>
+	<string name="item.info.tooltip.stack_price">\"icn-money"%each%(%total%)</string>
+
+	<!-- Item Quality -->
+
+	<string name="item.quality.common">普通</string>
+	<string name="item.quality.uncommon">罕见</string>
+	<string name="item.quality.rare">稀有</string>
+	<string name="item.quality.epic">史诗</string>
+	<string name="item.quality.legendary">传奇</string>
+	<string name="item.quality.quest">任务</string>
+	<string name="item.quality.unique">独特</string>
+
+
+
+	<string name="blessing.damage.name">力量祝福</string>
+	<string name="blessing.damage.desc">%amnt%伤害</string>
+	<string name="blessing.protection.name">保护祝福</string>
+	<string name="blessing.protection.desc">%amnt%承受伤害</string>
+	<string name="blessing.speed.name">敏捷祝福</string>
+	<string name="blessing.speed.desc">%amnt%移动速度</string>
+	<string name="blessing.speed.shrine.desc">%amnt%移动速度/n冲刺加成</string>
+	<string name="blessing.light.name">光明祝福</string>
+	<string name="blessing.light.desc">%amnt%获得的暗影诅咒</string>
+	<string name="blessing.mana.name">技巧祝福</string>
+	<string name="blessing.mana.desc">%amnt%魔力消耗</string>
+	<string name="blessing.mana.shrine.desc">技能不消耗魔力</string>
+	<string name="blessing.gold.name">财富祝福</string>
+	<string name="blessing.gold.desc">%amnt%金币获取</string>
+	<string name="blessing.experience.name">智慧祝福</string>
+	<string name="blessing.experience.desc">%amnt%经验值获取</string>
+
+
+
+
+
+	<!-- Remove?? -->
+	<string name="item.trigger.tooltip.spell_01">Deals%dmg%Fire Damage to all enemies within%radius%radius when attacked.</string>
+	<string name="item.trigger.tooltip.spell_02">%chance%%to create an explosion on attack.</string>
+	<string name="item.trigger.tooltip.spell_03">%chance%%on hit to drop a meteor, dealing a lot of fire damage to enemies hit.</string>
+	<string name="item.complex.tooltip.modifier_01">Fire Damage is converted to Ice Damage.</string>
+	<string name="item.info.tooltip .complex_mod">15%to inflict \"icn-wip" for 10s</string>
+	<string name="item.info.tooltip.trigger">100%\"icn-dmg-phys" vs. Undead</string>
+
+	<string name="item.stat.tooltip.strength">\"icn-str"%stat%</string>
+	<string name="item.stat.tooltip.dexterity">\"icn-dex"%stat%</string>
+	<string name="item.stat.tooltip.intelligence">\"icn-int"%stat%</string>
+	<string name="item.stat.tooltip.vitality">\"icn-vit"%stat%</string>
+	<string name="item.stat.tooltip.focus">\"icn-foc"%stat%</string>
+	<string name="item.stat.tooltip.atkpwr">\"icn-atkpwr"%stat%</string>
+	<string name="item.stat.tooltip.splpwr">\"icn-splpwr"%stat%</string>
+	<string name="item.stat.tooltip.armor">\"icn-res-phys"%stat%</string>
+	<string name="item.stat.tooltip.resistancefire">\"icn-res-fire"%stat%</string>
+	<string name="item.stat.tooltip.resistanceice">\"icn-res-ice"%stat%</string>
+	<string name="item.stat.tooltip.resistancelightning">\"icn-res-lightn"%stat%</string>
+	<string name="item.stat.tooltip.resistancepoison">\"icn-res-poison"%stat%</string>
+	<string name="item.stat.tooltip.statbaseddamage">\"icn-dmg-%type%"%dmg?+%(%amount%%of%stat%)</string>
+	<string name="item.stat.tooltip.damagetotal">%stat%Damage</string>
+	<string name="item.stat.tooltip.damagephysical">\"icn-dmg-phys"%stat%</string>
+	<string name="item.stat.tooltip.damagefire">\"icn-dmg-fire"%stat%</string>
+	<string name="item.stat.tooltip.damageice">\"icn-dmg-ice"%stat%</string>
+	<string name="item.stat.tooltip.damagelightning">\"icn-dmg-lightn"%stat%</string>
+	<string name="item.stat.tooltip.damagepoison">\"icn-dmg-poison"%stat%</string>
+	<string name="item.stat.tooltip.damagepure">\"icn-dmg-raw"%stat%</string>
+	<string name="item.stat.tooltip.health">\"icn-hp"%stat%</string>
+	<string name="item.stat.tooltip.mana">\"icn-mp"%stat%</string>
+	<string name="item.stat.tooltip.healthregen">\"icn-hp-rgn"%stat%</string>
+	<string name="item.stat.tooltip.manaregen">\"icn-mp-rgn"%stat%</string>
+	<string name="item.stat.tooltip.movespeed">\"icn-movespeed"%stat%%</string>
+	<string name="item.stat.tooltip.attackspeed">\"icn-speed-atk"%stat%%</string>
+	<string name="item.stat.tooltip.castspeed">\"icn-speed-cast"%stat%%</string>
+	<string name="item.stat.tooltip.evadechance">\"icn-evade"%stat%%</string>
+	<string name="item.stat.tooltip.parrychance">\"icn-parry"%stat%%</string>
+	<string name="item.stat.tooltip.damagephysicalmul">\"icn-dmg-phys"%stat%%</string>
+	<string name="item.stat.tooltip.damagefiremul">\"icn-dmg-fire"%stat%%</string>
+	<string name="item.stat.tooltip.damageicemul">\"icn-dmg-ice"%stat%%</string>
+	<string name="item.stat.tooltip.damagelightningmul">\"icn-dmg-lightn"%stat%%</string>
+	<string name="item.stat.tooltip.damagepoisonmul">\"icn-dmg-poison"%stat%%</string>
+	<string name="item.stat.tooltip.damagepuremul">\"icn-dmg-raw"%stat%%</string>
+	<string name="item.stat.tooltip.armorpen">\"icn-respen-phys"%stat%</string>
+	<string name="item.stat.tooltip.resistancefirepen">\"icn-respen-fire"%stat%</string>
+	<string name="item.stat.tooltip.resistanceicepen">\"icn-respen-ice"%stat%</string>
+	<string name="item.stat.tooltip.resistancelightningpen">\"icn-respen-lightn"%stat%</string>
+	<string name="item.stat.tooltip.resistancepoisonpen">\"icn-respen-poison"%stat%</string>
+	<string name="item.stat.tooltip.experiencemul">\"icn-expmul"%stat%%</string>
+	<string name="item.stat.tooltip.lightradius">LR%stat%</string>
+	<string name="item.stat.tooltip.spellcritchance">\"icn-crit-spellchance"%stat%%</string>
+	<string name="item.stat.tooltip.spellcritdamage">\"icn-crit-spelldmg"%stat%%</string>
+	<string name="item.stat.tooltip.critchance">\"icn-crit-atkchance"%stat%%</string>
+	<string name="item.stat.tooltip.critdamage">\"icn-crit-atkdmg"%stat%%</string>
+	<string name="item.stat.tooltip.convertstat.add">%stat%%of%from%added to%to%</string>
+	<string name="item.stat.tooltip.convertstat.set">%to%set to%stat%%of%from%</string>
+	<string name="item.stat.tooltip.convertstat.add_self">%from%+%stat%%</string>
+
+
+
+
+
+
+	<!-- Item Errors -->
+	<string name="item.error.cannot_be_equipped">无法装备此物品</string>
+	<string name="item.error.cannot_be_used">无法使用此物品</string>
+	<string name="item.error.invalid_inventory">该物品无法放入背包</string>
+	<string name="item.error.invalid_slot">该物品无法放入此栏位</string>
+	<string name="item.error.low_level">您需要更高的等级</string>
+	<string name="item.error.low_requirements">您不符合要求</string>
+	<string name="item.error.player_low_gold">您的金币不足，无法购买此物品</string>
+
+
+
+
+	<string name="hud.levelup">升级！</string>
+	<string name="hud.potionrefill">药水已补充！</string>
+	<string name="hud.spectate">观战%name%</string>
+	<string name="hud.spectate.help">按%fire%切换至下一位玩家\n按%use%停止观战</string>
+	<string name="hud.spectate.start">按%use%开始观战</string>
+
+
+	<!-- Overlay -->
+	<string name="tab.overlay.level.town">城镇</string>
+	<string name="tab.overlay.level.diff_lvl">区域等级%lvl%</string>
+	<string name="tab.overlay.level.ngp">\nNew Game+%ngp%</string>
+	
+	<string name="tab.overlay.player.gold">\"icn-gold"%amount%</string>
+	<string name="tab.overlay.player.wood">\"icn-wood"%amount%</string>
+	<string name="tab.overlay.player.stone">\"icn-stone"%amount%</string>
+	<string name="tab.overlay.player.iron">\"icn-iron"%amount%</string>
+	<string name="tab.overlay.player.crys">\"icn-crys"%amount%</string>
+	<string name="tab.overlay.player.dust">\"icn-dust"%amount%</string>
+	<string name="tab.overlay.player.frag">\"icn-frag"%amount%</string>
+	<string name="tab.overlay.player.unknown">%amount%?</string>
+	
+	<string name="item.key.bronze">青铜钥匙</string>
+	<string name="item.key.silver">白银钥匙</string>
+	<string name="item.key.gold">黄金钥匙</string>
+	
+	<string name="material.name.gold">金币</string>
+	<string name="material.name.wood">木材</string>
+	<string name="material.name.stone">石材</string>
+	<string name="material.name.iron">铁</string>
+	<string name="material.name.crys">水晶</string>
+	<string name="material.name.dust">尘埃</string>
+	<string name="material.name.frag">碎片</string>
+	
+	<string name="hud.pickup.gold">\"icn-gold"%amount%</string>
+	<string name="hud.pickup.wood">\"icn-wood"%amount%</string>
+	<string name="hud.pickup.stone">\"icn-stone"%amount%</string>
+	<string name="hud.pickup.iron">\"icn-iron"%amount%</string>
+	<string name="hud.pickup.crys">\"icn-crys"%amount%</string>
+	<string name="hud.pickup.dust">\"icn-dust"%amount%</string>
+	<string name="hud.pickup.frag">\"icn-frag"%amount%</string>
+	<string name="hud.pickup.unknown">%amount%?</string>
+	
+	<string name="hud.lootlog.gold">\"icn-gold"</string>
+	<string name="hud.lootlog.wood">\"icn-wood"</string>
+	<string name="hud.lootlog.stone">\"icn-stone"</string>
+	<string name="hud.lootlog.iron">\"icn-iron"</string>
+	<string name="hud.lootlog.crys">\"icn-crys"</string>
+	<string name="hud.lootlog.dust">\"icn-dust"</string>
+	<string name="hud.lootlog.frag">\"icn-frag"</string>
+	<string name="hud.lootlog.unknown">?</string>
+	
+	
+	<string name="hud.lootlog.got.sp">获得</string>
+	<string name="hud.lootlog.got.mp.self">你 获得</string>
+	<string name="hud.lootlog.got.mp.other"> 获得</string>
+	
+	<string name="hud.lootlog.skill">技能</string>
+	<string name="hud.lootlog.trinket">饰品</string>
+	<string name="hud.lootlog.equipment">装备</string>
+	<string name="hud.lootlog.experience">\"icn-exp"</string>
+	<string name="hud.lootlog.shrine">石碑</string>
+	<string name="hud.lootlog.shadowcurse">暗影诅咒</string>
+	<string name="hud.lootlog.buff">增益</string>
+	
+	<string name="hud.boxannounce.accomplishment">解锁成就：</string>
+	<string name="hud.boxannounce.class">解锁职业：</string>
+	<string name="hud.boxannounce.building">解锁建筑：</string>
+	<string name="hud.boxannounce.unlocked">已解锁：</string>
+	<string name="hud.boxannounce.unlocked.potion">药水</string>
+	<string name="hud.boxannounce.unlocked.combo">连击</string>
+	
+	
+	<string name="tab.overlay.time">%year%%month%/%day%%h%：%m%</string>
+
+	<!-- Item Generation -->
+
+	<string name="generation.equipment.name">%slot%装备</string>
+	<string name="generation.equipment.desc">此装备的属性在制作后被揭示</string>
+
+	<!-- Loot Log -->
+
+	<string name="loot.log.you_show">您向所有人展示了%item%</string>
+	<string name="loot.log.someone_shows">%name%向您展示了%item%</string>
+	<string name="loot.log.looted">%name%：%item%</string>
+	<string name="loot.log.you">你</string>
+
+	<!-- Pedia -->
+	<string name="input.unbound">未绑定</string>
+	<string name="input.nomap"></string>
+	<string name="input.noinp"></string>
+	<string name="input."></string>
+
+
+	<!-- Locations -->
+	<string name="location.level">等级%lvl%</string>
+	
+	<string name="location.act.forest">森林</string>
+	<string name="location.act.cave_light">洞穴</string>
+	<string name="location.act.cave_dark">黑暗洞穴</string>
+	<string name="location.act.prison">监狱</string>
+	<string name="location.act.keep">盗贼堡垒</string>
+	<string name="location.act.temple">神殿</string>
+	<string name="location.act.crypt">地穴</string>
+	<string name="location.act.dungeon">地牢</string>
+	<string name="location.act.barracks">兵营</string>
+	<string name="location.act.courts">宫廷</string>
+	<string name="location.act.dark_halls">黑暗大厅</string>
+	
+	<string name="boss.totems">图腾柱</string>
+	<string name="boss.totem_ice">寒冰图腾</string>
+	<string name="boss.totem_earth">大地图腾</string>
+	<string name="boss.totem_fire">烈焰图腾</string>
+	<string name="boss.totem_lightning">闪电图腾</string>
+	<string name="boss.face">暗影面具</string>
+	<string name="boss.arista">阿里斯塔</string>
+	<string name="boss.harbingers">恐惧先驱</string>
+	<string name="boss.serpents">灭亡巨蛇</string>
+	<string name="boss.avatar">化身</string>
+	
+	
+	<string name="mission.dark_citadel.name">黑暗堡垒</string>
+	<string name="mission.intro_find_npcs.name">拯救村民</string>
+	
+	
+	<!-- Character Voices -->
+	<string name="menu.character.creation.voice.male1.title">史蒂文</string>
+	<string name="menu.character.creation.voice.male2.title">泰勒</string>
+	<string name="menu.character.creation.voice.male3.title">柯克尼</string>
+	<string name="menu.character.creation.voice.female1.title">克拉丽莎</string>
+	<string name="menu.character.creation.voice.female2.title">坎蒂丝</string>
+	<string name="menu.character.creation.voice.female3.title">黛安娜</string>
+	
+	<!-- Hairstyles -->
+	<string name="menu.character.creation.portrait_piece.hair1">短乱发</string>
+	<string name="menu.character.creation.portrait_piece.hair2">包头</string>
+	<string name="menu.character.creation.portrait_piece.hair3">长鲍伯头</string>
+	<string name="menu.character.creation.portrait_piece.hair4">西瓜皮</string>
+	<string name="menu.character.creation.portrait_piece.hair5">凌乱层次发</string>
+	<string name="menu.character.creation.portrait_piece.hair6">嬉皮</string>
+	<string name="menu.character.creation.portrait_piece.hair8">莫霍克</string>
+	<string name="menu.character.creation.portrait_piece.hair9">头带</string>
+	<string name="menu.character.creation.portrait_piece.hair11">平头</string>
+	<string name="menu.character.creation.portrait_piece.hair12">秃头</string>
+	<string name="menu.character.creation.portrait_piece.hair13">爆炸头</string>
+	<string name="menu.character.creation.portrait_piece.hair14">辫子头</string>
+	<string name="menu.character.creation.portrait_piece.hair15">长波浪发</string>
+	<string name="menu.character.creation.portrait_piece.hair10">短鲍伯头</string>
+	<string name="menu.character.creation.portrait_piece.hair17">板寸头</string>
+	<string name="menu.character.creation.portrait_piece.hair18">马尾</string>
+	<string name="menu.character.creation.portrait_piece.hair19">辫子头</string>
+	<string name="menu.character.creation.portrait_piece.hair20">华丽发型</string>
+	<string name="menu.character.creation.portrait_piece.hair22">精致卷发</string>
+	<string name="menu.character.creation.portrait_piece.hair23">长直发</string>
+	
+	<!-- Eyes -->
+	<string name="menu.character.creation.portrait_piece.eyes1">眼睛 1</string>
+	<string name="menu.character.creation.portrait_piece.eyes2">眼睛 2</string>
+	<string name="menu.character.creation.portrait_piece.eyes3">眼睛 3</string>
+	<string name="menu.character.creation.portrait_piece.eyes4">眼睛 4</string>
+	<string name="menu.character.creation.portrait_piece.eyes5">眼睛 5</string>
+	<string name="menu.character.creation.portrait_piece.eyes6">眼睛 6</string>
+	<string name="menu.character.creation.portrait_piece.eyes7">眼睛 7</string>
+	<string name="menu.character.creation.portrait_piece.eyes8">眼睛 8</string>
+	<string name="menu.character.creation.portrait_piece.eyes9">眼睛 9</string>
+	<string name="menu.character.creation.portrait_piece.eyes10">眼睛 10</string>
+	<string name="menu.character.creation.portrait_piece.eyes15">眼睛 11</string>
+	<string name="menu.character.creation.portrait_piece.eyes17">眼睛 12</string>
+	<string name="menu.character.creation.portrait_piece.eyes18">眼睛 13</string>
+	
+	<!-- Noses -->
+	<string name="menu.character.creation.portrait_piece.nose1">鼻子 1</string>
+	<string name="menu.character.creation.portrait_piece.nose2">鼻子 2</string>
+	<string name="menu.character.creation.portrait_piece.nose3">鼻子 3</string>
+	<string name="menu.character.creation.portrait_piece.nose4">鼻子 4</string>
+	<string name="menu.character.creation.portrait_piece.nose5">鼻子 5</string>
+	<string name="menu.character.creation.portrait_piece.nose6">鼻子 6</string>
+	<string name="menu.character.creation.portrait_piece.nose7">鼻子 7</string>
+	
+	<!-- Mouths -->
+	<string name="menu.character.creation.portrait_piece.mouth1">嘴巴 1</string>
+	<string name="menu.character.creation.portrait_piece.mouth2">嘴巴 2</string>
+	<string name="menu.character.creation.portrait_piece.mouth3">嘴巴 3</string>
+	<string name="menu.character.creation.portrait_piece.mouth4">嘴巴 4</string>
+	<string name="menu.character.creation.portrait_piece.mouth5">嘴巴 5</string>
+	<string name="menu.character.creation.portrait_piece.mouth6">嘴巴 6</string>
+	<string name="menu.character.creation.portrait_piece.mouth7">嘴巴 7</string>
+	<string name="menu.character.creation.portrait_piece.mouth8">嘴巴 8</string>
+	<string name="menu.character.creation.portrait_piece.mouth9">嘴巴 9</string>
+	<string name="menu.character.creation.portrait_piece.mouth10">嘴巴 10</string>
+	<string name="menu.character.creation.portrait_piece.mouth11">嘴巴 11</string>
+	<string name="menu.character.creation.portrait_piece.mouth12">嘴巴 12</string>
+	<string name="menu.character.creation.portrait_piece.mouth13">嘴巴 13</string>
+	<string name="menu.character.creation.portrait_piece.mouth14">嘴巴 14</string>
+	<string name="menu.character.creation.portrait_piece.mouth15">嘴巴 15</string>
+	<string name="menu.character.creation.portrait_piece.mouth16">嘴巴 16</string>
+	
+	<!-- Hair Colors -->
+	<string name="menu.character.creation.color.platium">白金色</string>
+	<string name="menu.character.creation.color.blonde">金色</string>
+	<string name="menu.character.creation.color.red">红色</string>
+	<string name="menu.character.creation.color.brown">栗色</string>
+	<string name="menu.character.creation.color.auburn">赤褐色</string>
+	<string name="menu.character.creation.color.black">黑色</string>
+	<string name="menu.character.creation.color.dark_gray">深灰色</string>
+	<string name="menu.character.creation.color.gray">灰色</string>
+	<string name="menu.character.creation.color.white">白色</string>
+	
+	<!-- Skin Colors -->
+	<string name="menu.character.creation.color.light1">苍白</string>
+	<string name="menu.character.creation.color.light2">白皙</string>
+	<string name="menu.character.creation.color.light3">红润</string>
+	<string name="menu.character.creation.color.dark1">橄榄色</string>
+	<string name="menu.character.creation.color.dark2">棕色</string>
+	<string name="menu.character.creation.color.dark3">深棕色</string>
+	<string name="menu.character.creation.color.dark4">乌黑</string>
+	
+
+
+
+
+	<string name="o.as360.pro">检测到 Switch Pro 控制器r</string>
+	<string name="o.joystick.pro">Pro Controller%slot%</string>
+	<string name="g_laser_sight.help.pro">显示一条辅助瞄准的细线。 自动模式仅在使用 Pro Controller时启用</string>
+	<string name="menu.controls.layout.gp1.pro">PRO CONTROLLER 1</string>
+	<string name="menu.controls.layout.gp2.pro">PRO CONTROLLER 2</string>
+	<string name="menu.controls.layout.gp3.pro">PRO CONTROLLER 3</string>
+	<string name="menu.controls.layout.gp4.pro">PRO CONTROLLER 4</string>
+	<string name="menu.controls.move.gp_left.pro">PRO CONTROLLER： 左摇杆</string>
+	<string name="menu.controls.move.gp_right.pro">PRO CONTROLLER： 右摇杆</string>
+	<string name="menu.controls.aim.gp_right.pro">PRO CONTROLLER：右摇杆</string>
+	<string name="menu.controls.aim.gp_left.pro">PRO CONTROLLER： 左摇杆</string>
+
+
+
+
+
+
+
+
+	<!-- Hero Titles -->
+	<string name="htitle.paladin.desc">提供%num%护甲，每级增加%num-per%</string>
+	<string name="htitle.ranger.desc">提供%num%攻击力，每级增加%num-per%</string>
+	<string name="htitle.rogue.desc">提供%num%%金币增益，每级增加%num-per%%</string>
+	<string name="htitle.sorcerer.desc">提供%num%魔力恢复，每级增加%num-per%</string>
+	<string name="htitle.warlock.desc">提供%num%火、冰、电及毒抗性，每级增加%num-per%</string>
+	<string name="htitle.warrior.desc">提供%num%生命值，每级增加%num-per%</string>
+	<string name="htitle.wizard.desc">提供%num%技能威力，每级增加%num-per%</string>
+
+
+
+	<!-- Stats -->
+	<string name="stat.icon.elites">\cb0dfff精英\d</string>
+	<string name="stat.name.elites">更强的敌人，其脚下有红圈标记</string>
+	<string name="stat.icon.stun">\cb0dfff晕眩\d</string>
+	<string name="stat.name.stun">无法移动和使用技能，持续1.5秒</string>
+	<string name="stat.icon.slow">\cb0dfff缓速\d</string>
+	<string name="stat.name.slow">移动，武器和施法速度降低 30%，持续4秒</string>
+	<string name="stat.icon.weakness">\cb0dfff虚弱\d</string>
+	<string name="stat.name.weakness">伤害降低 20%，持续6秒</string>
+	<string name="stat.icon.vulnerability">\cb0dfff脆弱\d</string>
+	<string name="stat.name.vulnerability">承受伤害增加 20%，持续6秒</string>
+	<string name="stat.icon.silence">\cb0dfff沉默\d</string>
+	<string name="stat.name.silence">无法施放技能，持续3秒</string>
+	<string name="stat.icon.disarm">\cb0dfff缴械\d</string>
+	<string name="stat.name.disarm">无法使用武器，持续3秒</string>
+	<string name="stat.icon.bleeding">\cb0dfff流血\d</string>
+	<string name="stat.name.bleeding">每秒造成6点伤害。\n移动时额外受伤，持续5秒</string>
+	<string name="stat.icon.blindness">\cb0dfff致盲\d</string>
+	<string name="stat.name.blindness">30%机率攻击失败，持续5秒</string>
+	<string name="stat.icon.cripple">\cb0dfff跛足\d</string>
+	<string name="stat.name.cripple">移动速度降低 65%，持续4秒</string>
+	<string name="stat.icon.freeze">\cb0dfff冰冻\d</string>
+	<string name="stat.name.freeze">无法移动和使用技能，持续2.5秒</string>
+	<string name="stat.icon.lowlife">\cb0dfff低生命\d</string>
+	<string name="stat.name.lowlife">生命值低于最大生命值的35%</string>
+	
+
+
+	<string name="stat.custom.goldgain">金币获取</string>
+	<string name="stat.custom.woodgain">木材获取</string>
+	<string name="stat.custom.stonegain">石材获取</string>
+	<string name="stat.custom.irongain">铁获取</string>
+	<string name="stat.custom.crysgain">水晶获取</string>
+	<string name="stat.custom.dustgain">尘埃获取</string>
+	<string name="stat.custom.fraggain">碎片获取</string>
+	<string name="stat.custom.scursegain">暗影诅咒获取</string>
+	<string name="stat.custom.damage">伤害</string>
+	<string name="stat.custom.mainhanddamage">主手伤害</string>
+	<string name="stat.custom.offhanddamage">副手伤害</string>
+
+
+	<string name="stat.icon.gold">\"icn-gold"</string>
+	<string name="stat.name.gold">金币</string>
+	<string name="stat.icon.wood">\"icn-wood"</string>
+	<string name="stat.name.wood">木材</string>
+	<string name="stat.icon.stone">\"icn-stone"</string>
+	<string name="stat.name.stone">石材</string>
+	<string name="stat.icon.iron">\"icn-iron"</string>
+	<string name="stat.name.iron">铁</string>
+	<string name="stat.icon.crys">\"icn-crys"</string>
+	<string name="stat.name.crys">水晶</string>
+	<string name="stat.icon.dust">\"icn-dust"</string>
+	<string name="stat.name.dust">尘埃</string>
+	<string name="stat.icon.frag">\"icn-frag"</string>
+	<string name="stat.name.frag">碎片</string>
+
+	<string name="stat.icon.strength">\"icn-str"</string>
+	<string name="stat.name.strength">力量</string>
+	<string name="stat.icon.dexterity">\"icn-dex"</string>
+	<string name="stat.name.dexterity">敏捷</string>
+	<string name="stat.icon.intelligence">\"icn-int"</string>
+	<string name="stat.name.intelligence">智力</string>
+	<string name="stat.icon.vitality">\"icn-vit"</string>
+	<string name="stat.name.vitality">活力</string>
+	<string name="stat.icon.focus">\"icn-foc"</string>
+	<string name="stat.name.focus">专注</string>
+	<string name="stat.icon.atkpwr">\"icn-atkpwr"</string>
+	<string name="stat.name.atkpwr">武器威力</string>
+	<string name="stat.icon.splpwr">\"icn-splpwr"</string>
+	<string name="stat.name.splpwr">技能威力</string>
+	
+	
+	<string name="stat.icon.armor">\"icn-res-phys"</string>
+	<string name="stat.name.armor">护甲</string>
+	<string name="stat.icon.resistancefire">\"icn-res-fire"</string>
+	<string name="stat.name.resistancefire">火抗性</string>
+	<string name="stat.icon.resistanceice">\"icn-res-ice"</string>
+	<string name="stat.name.resistanceice">冰抗性</string>
+	<string name="stat.icon.resistancelightning">\"icn-res-lightn"</string>
+	<string name="stat.name.resistancelightning">电抗性</string>
+	<string name="stat.icon.resistancepoison">\"icn-res-poison"</string>
+	<string name="stat.name.resistancepoison">毒抗性</string>
+	
+	
+	<string name="stat.icon.damage">D</string>
+	<string name="stat.name.damage">伤害</string>
+	<string name="stat.icon.damagephysical">\"icn-dmg-phys"</string>
+	<string name="stat.name.damagephysical">物理伤害</string>
+	<string name="stat.icon.damagefire">\"icn-dmg-fire"</string>
+	<string name="stat.name.damagefire">火伤害</string>
+	<string name="stat.icon.damageice">\"icn-dmg-ice"</string>
+	<string name="stat.name.damageice">冰伤害</string>
+	<string name="stat.icon.damagelightning">\"icn-dmg-lightn"</string>
+	<string name="stat.name.damagelightning">电伤害</string>
+	<string name="stat.icon.damagepoison">\"icn-dmg-poison"</string>
+	<string name="stat.name.damagepoison">毒伤害</string>
+	<string name="stat.icon.damagepure">\"icn-dmg-raw"</string>
+	<string name="stat.name.damagepure">纯粹伤害</string>
+	
+	
+	<string name="stat.icon.health">\"icn-hp"</string>
+	<string name="stat.name.health">生命</string>
+	<string name="stat.icon.mana">\"icn-mp"</string>
+	<string name="stat.name.mana">魔力</string>
+	<string name="stat.icon.healthregen">\"icn-hp-rgn"</string>
+	<string name="stat.name.healthregen">生命恢复</string>
+	<string name="stat.icon.manaregen">\"icn-mp-rgn"</string>
+	<string name="stat.name.manaregen">魔力恢复</string>
+	
+	<string name="stat.icon.movespeed">\"icn-movespeed"</string>
+	<string name="stat.name.movespeed">移动速度</string>
+	<string name="stat.icon.attackspeed">\"icn-speed-atk"</string>
+	<string name="stat.name.attackspeed">武器速度</string>
+	<string name="stat.icon.castspeed">\"icn-speed-cast"</string>
+	<string name="stat.name.castspeed">施法速度</string>
+	<string name="stat.name.evadechance">闪避几率</string>
+	<string name="stat.icon.evadechance">\"icn-evade"</string>
+	<string name="stat.icon.parrychance">\"icn-parry"</string>
+	<string name="stat.name.parrychance">格挡几率</string>
+	<string name="stat.icon.experiencemul">\"icn-expmul"</string>
+	<string name="stat.name.experiencemul">经验值获取</string>
+	<string name="stat.icon.experience">\"icn-exp"</string>
+	<string name="stat.name.experience">经验</string>
+	
+	<string name="stat.icon.spellcritchance">\"icn-crit-spellchance"</string>
+	<string name="stat.name.spellcritchance">技能暴击率</string>
+	<string name="stat.icon.spellcritdamage">\"icn-crit-spelldmg"</string>
+	<string name="stat.name.spellcritdamage">技能暴击伤害</string>
+	<string name="stat.icon.critchance">\"icn-crit-atkchance"</string>
+	<string name="stat.name.critchance">武器暴击率</string>
+	<string name="stat.icon.critdamage">\"icn-crit-atkdmg"</string>
+	<string name="stat.name.critdamage">武器暴击伤害</string>
+	
+	<string name="stat.icon.armorpen">\"icn-respen-phys"</string>
+	<string name="stat.name.armorpen">护甲穿透</string>
+	<string name="stat.icon.resistancefirepen">\"icn-respen-fire"</string>
+	<string name="stat.name.resistancefirepen">火抗性穿透</string>
+	<string name="stat.icon.resistanceicepen">\"icn-respen-ice"</string>
+	<string name="stat.name.resistanceicepen">冰抗性穿透</string>
+	<string name="stat.icon.resistancelightningpen">\"icn-respen-lightn"</string>
+	<string name="stat.name.resistancelightningpen">电抗性穿透</string>
+	<string name="stat.icon.resistancepoisonpen">\"icn-respen-poison"</string>
+	<string name="stat.name.resistancepoisonpen">毒抗性穿透</string>
+	
+	<string name="stat.icon.attrpt">\"icn-attrpt"</string>
+	<string name="stat.name.attrpt">属性点数</string>
+	<string name="stat.icon.skillpt">\"icn-skillpt"</string>
+	<string name="stat.name.skillpt">技能点数</string>
+
+
+
+
+
+
+
+
+
+	<string name="accomplishment.paladin">骑士分会%num%</string>
+	<string name="accomplishment.paladin.desc">将骑士升至%num%级</string>
+	<string name="accomplishment.ranger">猎人小屋%num%</string>
+	<string name="accomplishment.ranger.desc">将游侠升至%num%级</string>
+	<string name="accomplishment.rogue">盗贼巢穴%num%</string>
+	<string name="accomplishment.rogue.desc">将盗贼升至%num%级</string>
+	<string name="accomplishment.sorcerer">魔法师圈子%num%</string>
+	<string name="accomplishment.sorcerer.desc">将法师升至%num%级</string>
+	<string name="accomplishment.warlock">黑暗契约%num%</string>
+	<string name="accomplishment.warlock.desc">将术士升至%num%级</string>
+	<string name="accomplishment.warrior">斗技之场%num%</string>
+	<string name="accomplishment.warrior.desc">将战士升至%num%级</string>
+	<string name="accomplishment.wizard">秘法联盟%num%</string>
+	<string name="accomplishment.wizard.desc">将巫师升至%num%级</string>
+	
+	<string name="accomplishment.enemy-kills">杀戮者%num%</string>
+	<string name="accomplishment.enemy-kills.desc">击杀%num%名敌人</string>
+	<string name="accomplishment.damage-dealt">伤害制造者%num%</string>
+	<string name="accomplishment.damage-dealt.desc">造成%num%伤害</string>
+	<string name="accomplishment.damage-dealt-max">重击者%num%</string>
+	<string name="accomplishment.damage-dealt-max.desc">单次攻击造成%num%伤害</string>
+	<string name="accomplishment.damage-blocked">格挡者%num%</string>
+	<string name="accomplishment.damage-blocked.desc">格挡%num%伤害</string>
+	<string name="accomplishment.spent-mana">施法者%num%</string>
+	<string name="accomplishment.spent-mana.desc">通过施法消耗%num%魔力</string>
+	<string name="accomplishment.combo-max">连击专家%num%</string>
+	<string name="accomplishment.combo-max.desc">达成%num%次连击</string>
+	<string name="accomplishment.potion-charges-used">药剂饮者%num%</string>
+	<string name="accomplishment.potion-charges-used.desc">喝药水%num%次</string>
+	<string name="accomplishment.crit-count">暴击者%num%</string>
+	<string name="accomplishment.crit-count.desc">造成%num%次暴击伤害</string>
+	<string name="accomplishment.evade-amount">闪避者%num%</string>
+	<string name="accomplishment.evade-amount.desc">闪避%num%次攻击</string>
+	<string name="accomplishment.parry-amount">剑术家%num%</string>
+	<string name="accomplishment.parry-amount.desc">格挡%num%次攻击</string>
+	
+	<string name="accomplishment.enemy-kills-undead">净化者%num%</string>
+	<string name="accomplishment.enemy-kills-undead.desc">击杀%num%名不死生物</string>
+	<string name="accomplishment.enemy-kills-beast">狩猎者%num%</string>
+	<string name="accomplishment.enemy-kills-beast.desc">击杀%num%只野兽</string>
+	<string name="accomplishment.enemy-kills-human">谋杀者%num%</string>
+	<string name="accomplishment.enemy-kills-human.desc">击杀%num%名人类</string>
+	<string name="accomplishment.enemy-kills-aberration">驱魔者%num%</string>
+	<string name="accomplishment.enemy-kills-aberration.desc">击杀%num%名异常生物</string>
+	<string name="accomplishment.enemy-kills-construct">破坏者%num%</string>
+	<string name="accomplishment.enemy-kills-construct.desc">击杀%num%个构造体</string>
+	<string name="accomplishment.enemy-kills-elite">精英克星%num%</string>
+	<string name="accomplishment.enemy-kills-elite.desc">击杀%num%名精英敌人</string>
+	
+	
+	<string name="accomplishment.secrets-found">侦探%num%</string>
+	<string name="accomplishment.secrets-found.desc">发现%num%个隐藏</string>
+	<string name="accomplishment.called-to-arms">招募者%num%</string>
+	<string name="accomplishment.called-to-arms.desc">招募%num%名佣兵</string>
+	<string name="accomplishment.traveling-cook-meals">快餐达人%num%</string>
+	<string name="accomplishment.traveling-cook-meals.desc">从流动厨师处进餐%num%次</string>
+	<string name="accomplishment.shady-trades">交涉者%num%</string>
+	<string name="accomplishment.shady-trades.desc">完成%num%次可疑交易</string>
+	<string name="accomplishment.imps-used">小恶魔猎人%num%</string>
+	<string name="accomplishment.imps-used.desc">找到%num%只小恶魔</string>
+	<string name="accomplishment.shrines-used">古老之力%num%</string>
+	<string name="accomplishment.shrines-used.desc">接受%num%次石碑祝福</string>
+	<string name="accomplishment.wells-used">补充者%num%</string>
+	<string name="accomplishment.wells-used.desc">使用%num%次泉水</string>
+	<string name="accomplishment.pyres-used">烈火净化者%num%</string>
+	<string name="accomplishment.pyres-used.desc">使用火堆净化暗影诅咒%num%次</string>
+	<string name="accomplishment.thunderbirds-used">雷鸣之围%num%</string>
+	<string name="accomplishment.thunderbirds-used.desc">用雷鸟运回材料%num%次</string>
+	
+	<string name="accomplishment.collected-trinket-common">普通收藏家%num%</string>
+	<string name="accomplishment.collected-trinket-common.desc">寻获%num%件普通饰品</string>
+	<string name="accomplishment.collected-trinket-uncommon">罕见收藏家%num%</string>
+	<string name="accomplishment.collected-trinket-uncommon.desc">寻获%num%件罕见饰品</string>
+	<string name="accomplishment.collected-trinket-rare">稀有收藏家%num%</string>
+	<string name="accomplishment.collected-trinket-rare.desc">找到%num%件稀有饰品</string>
+	<string name="accomplishment.collected-trinket-epic">史诗收藏家%num%</string>
+	<string name="accomplishment.collected-trinket-epic.desc">找到%num%件史诗饰品</string>
+	<string name="accomplishment.collected-trinket-cursed">诅咒收藏家%num%</string>
+	<string name="accomplishment.collected-trinket-cursed.desc">找到%num%件诅咒饰品</string>
+	
+	<string name="accomplishment.pickup-health">美食家%num%</string>
+	<string name="accomplishment.pickup-health.desc">拾取并食用%num%次生命恢复品</string>
+	<string name="accomplishment.pickup-mana">秘法吸收者%num%</string>
+	<string name="accomplishment.pickup-mana.desc">吸收%num%次魔力拾取品</string>
+	
+	<string name="accomplishment.buildings-built">建设者%num%</string>
+	<string name="accomplishment.buildings-built.desc">购买%num%次建筑升级</string>
+	
+	
+	
+	
+	<string name="statistic.damage-dealt">造成伤害</string>
+	<string name="statistic.damage-dealt-max">最高造成伤害</string>
+	<string name="statistic.damage-taken">承受伤害</string>
+	<string name="statistic.damage-taken-max">最高承受伤害</string>
+	<string name="statistic.damage-returned">反弹伤害</string>
+	<string name="statistic.enemy-kills">击杀敌人数</string>
+	<string name="statistic.amount-healed">恢复的血量</string>
+	<string name="statistic.crit-count">造成的暴击数</string>
+	<string name="statistic.leech-life">吸取生命</string>
+	<string name="statistic.leech-mana">吸取的魔力</string>
+	<string name="statistic.potion-charges-used">使用的药水次数</string>
+	<string name="statistic.spent-mana">消耗魔力</string>
+	<string name="statistic.death-count">死亡次数</string>
+	<string name="statistic.damage-blocked">格挡伤害</string>
+	<string name="statistic.evade-amount">闪避攻击数</string>
+	<string name="statistic.parry-amount">格挡攻击数</string>
+	<string name="statistic.combo-max">达成的最高连击</string>
+	<string name="statistic.damage-taken-phys">受到物理伤害</string>
+	<string name="statistic.damage-taken-fire">受到火伤害</string>
+	<string name="statistic.damage-taken-ice">受到冰伤害</string>
+	<string name="statistic.damage-taken-light">受到电伤害</string>
+	<string name="statistic.damage-taken-poison">受到毒伤害</string>
+	<string name="statistic.damage-taken-pure">受到纯粹伤害</string>
+	<string name="statistic.enemy-kills-beast">击杀野兽数</string>
+	<string name="statistic.enemy-kills-human">击杀人类数</string>
+	<string name="statistic.enemy-kills-aberration">击杀异变体数</string>
+	<string name="statistic.enemy-kills-construct">击杀构造体数</string>
+	<string name="statistic.enemy-kills-undead">击杀不死生物数</string>
+	<string name="statistic.enemy-kills-elite">击杀精英敌人数</string>
+	
+	<string name="statistic.timer-ms-mission">任务中花费时间</string>
+	<string name="statistic.timer-ms-town">城镇中花费时间</string>
+	<string name="statistic.floors-visited">探索层数</string>
+	<string name="statistic.shrines-used">使用石碑次数</string>
+	<string name="statistic.wells-used">使用泉水次数</string>
+	<string name="statistic.pyres-used">使用火堆次数</string>
+	<string name="statistic.braziers-used">使用火盆次数</string>
+	<string name="statistic.thunderbirds-used">使用雷鸟次数</string>
+	<string name="statistic.imps-used">使用小恶魔次数</string>
+	<string name="statistic.shady-trades">进行可疑交易次数</string>
+	<string name="statistic.traveling-cook-meals">从流动厨师那里享用的餐点数</string>
+	<string name="statistic.called-to-arms">招募佣兵数</string>
+	<string name="statistic.secrets-found">发现隐藏次数</string>
+	<string name="statistic.chests-opened">开启宝箱数</string>
+	<string name="statistic.units-traveled">行进距离</string>
+	<string name="statistic.exp-gained">获得经验值</string>
+	<string name="statistic.shadow-curse-got">获得暗影诅咒数量</string>
+	<string name="statistic.shadow-curse-removed">净化暗影诅咒数量</string>
+	<string name="statistic.collected-trinket-common">收集普通饰品数</string>
+	<string name="statistic.collected-trinket-uncommon">收集罕见饰品数</string>
+	<string name="statistic.collected-trinket-rare">收集稀有饰品数</string>
+	<string name="statistic.collected-trinket-epic">收集史诗饰品数</string>
+	<string name="statistic.collected-trinket-cursed">收集诅咒饰品数</string>
+	<string name="statistic.pickup-health">收集生命拾取物数</string>
+	<string name="statistic.pickup-mana">收集魔力拾取物数</string>
+	<string name="statistic.pickup-exp">收集经验卷轴数</string>
+	<string name="statistic.max-level-paladin">骑士最高等级</string>
+	<string name="statistic.max-level-ranger">游侠最高等级</string>
+	<string name="statistic.max-level-wizard">法师最高等级</string>
+	<string name="statistic.max-level-warrior">战士最高等级</string>
+	<string name="statistic.max-level-rogue">盗贼最高等级</string>
+	<string name="statistic.max-level-warlock">术士最高等级</string>
+	<string name="statistic.max-level-sorcerer">巫师最高等级</string>
+	
+	<string name="statistic.buildings-built">建造建筑数</string>
+	<string name="statistic.valuables-collected">收集贵重物品数</string>
+	<string name="statistic.valuables-value">贵重物品价值</string>
+	<string name="statistic.collected-gold">收集金币数</string>
+	<string name="statistic.sent-back-gold">送回城镇的金币数</string>
+	<string name="statistic.chapel-revive-gold">捐赠给教堂的金币数</string>
+	<string name="statistic.collected-wood">收集的木材数</string>
+	<string name="statistic.sent-back-wood">送回城镇的木材数</string>
+	<string name="statistic.chapel-revive-wood">捐赠给教堂的木材数</string>
+	<string name="statistic.collected-stone">收集的石材数</string>
+	<string name="statistic.sent-back-stone">送回城镇的石材数</string>
+	<string name="statistic.chapel-revive-stone">捐赠给教堂的石材数</string>
+	<string name="statistic.collected-iron">收集的铁数</string>
+	<string name="statistic.sent-back-iron">送回城镇的铁数</string>
+	<string name="statistic.chapel-revive-iron">捐赠给教堂的铁数</string>
+	<string name="statistic.collected-crystals">收集的水晶数</string>
+	<string name="statistic.sent-back-crystals">送回城镇的水晶数</string>
+	<string name="statistic.chapel-revive-crystals">捐赠给教堂的水晶数</string>
+	<string name="statistic.collected-dust">收集的尘埃数</string>
+	<string name="statistic.sent-back-dust">送回城镇的尘埃数</string>
+	<string name="statistic.chapel-revive-dust">捐赠给教堂的尘埃数</string>
+	<string name="statistic.collected-fragments">收集的碎片数</string>
+	<string name="statistic.sent-back-fragments">送回城镇的碎片数</string>
+	<string name="statistic.chapel-revive-fragments">捐赠给教堂的碎片数</string>
+
+</lang>

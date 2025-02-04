@@ -1,0 +1,193 @@
+<lang>
+
+    <string name="item.system.epic_name">%prefix% %suffix%</string>
+    <string name="item.system.eqipment_pfx">%prefix% %base%</string>
+    <string name="item.system.eqipment_sfx">%base% %suffix%</string>
+    <string name="item.system.eqipment_pfx_sfx">%prefix% %base% %suffix%</string>
+
+    <string name="equipment.mainhand.axe.1a">战斗短斧</string>
+    <string name="equipment.mainhand.axe.2a">战斧</string>
+    <string name="equipment.mainhand.axe.3a">双刃战斧</string>
+    <string name="equipment.mainhand.axe.4a">皇家战斧</string>
+
+    <string name="equipment.mainhand.mace.1a">圆头战锤</string>
+    <string name="equipment.mainhand.mace.2a">翼刃战锤</string>
+    <string name="equipment.mainhand.mace.3a">战锤</string>
+    <string name="equipment.mainhand.mace.4a">华丽战锤</string>
+
+    <string name="equipment.mainhand.longsword.1a">长剑</string>
+    <string name="equipment.mainhand.longsword.2a">双手长剑</string>
+    <string name="equipment.mainhand.longsword.3a">战剑</string>
+    <string name="equipment.mainhand.longsword.4a">白金剑</string>
+
+    <string name="equipment.mainhand.shortsword.1a">短剑</string>
+    <string name="equipment.mainhand.shortsword.2a">精致短剑</string>
+    <string name="equipment.mainhand.shortsword.3a">贵族短剑</string>
+    <string name="equipment.mainhand.shortsword.4a">勇士之剑</string>
+
+    <string name="equipment.mainhand.dagger.1a">铁匕首</string>
+    <string name="equipment.mainhand.dagger.2a">钢匕首</string>
+    <string name="equipment.mainhand.dagger.3a">贵族匕首</string>
+    <string name="equipment.mainhand.dagger.4a">华丽匕首</string>
+
+    <string name="equipment.mainhand.wand.fire.1a">火焰魔杖</string>
+    <string name="equipment.mainhand.wand.fire.2a">熟练火焰魔杖</string>
+    <string name="equipment.mainhand.wand.fire.3a">卓越火焰魔杖</string>
+    <string name="equipment.mainhand.wand.fire.4a">大师火焰魔杖</string>
+
+    <string name="equipment.mainhand.wand.ice.1a">冰霜魔杖</string>
+    <string name="equipment.mainhand.wand.ice.2a">熟练冰霜魔杖</string>
+    <string name="equipment.mainhand.wand.ice.3a">卓越冰霜魔杖</string>
+    <string name="equipment.mainhand.wand.ice.4a">大师冰霜魔杖</string>
+
+    <string name="equipment.mainhand.wand.lightning.1a">雷电魔杖</string>
+    <string name="equipment.mainhand.wand.lightning.2a">熟练雷电魔杖</string>
+    <string name="equipment.mainhand.wand.lightning.3a">卓越雷电魔杖</string>
+    <string name="equipment.mainhand.wand.lightning.4a">大师雷电魔杖</string>
+
+    <string name="equipment.offhand.dirk.1a">铁短刃</string>
+    <string name="equipment.offhand.dirk.2a">钢短刃</string>
+    <string name="equipment.offhand.dirk.3a">蛇形仪刃</string>
+    <string name="equipment.offhand.dirk.4a">金蛇刃</string>
+
+    <string name="equipment.offhand.shield.1a">木盾</string>
+    <string name="equipment.offhand.shield.2a">圆盾</string>
+    <string name="equipment.offhand.shield.3a">骑士盾</string>
+    <string name="equipment.offhand.shield.4a">雕纹盾</string>
+
+    <string name="equipment.offhand.crossbow.1a">手弩</string>
+    <string name="equipment.offhand.crossbow.2a">手弩</string>
+    <string name="equipment.offhand.crossbow.3a">贵族手弩</string>
+    <string name="equipment.offhand.crossbow.4a">镀金手弩</string>
+
+    <string name="equipment.offhand.tome.fire.1a">火焰法典</string>
+    <string name="equipment.offhand.tome.fire.2a">熟练火焰法典</string>
+    <string name="equipment.offhand.tome.fire.3a">卓越火焰法典</string>
+    <string name="equipment.offhand.tome.fire.4a">大师火焰法典</string>
+
+    <string name="equipment.offhand.tome.ice.1a">冰霜法典</string>
+    <string name="equipment.offhand.tome.ice.2a">熟练冰霜法典</string>
+    <string name="equipment.offhand.tome.ice.3a">卓越冰霜法典</string>
+    <string name="equipment.offhand.tome.ice.4a">大师冰霜法典</string>
+
+    <string name="equipment.offhand.tome.lightning.1a">雷电法典</string>
+    <string name="equipment.offhand.tome.lightning.2a">熟练雷电法典</string>
+    <string name="equipment.offhand.tome.lightning.3a">卓越雷电法典</string>
+    <string name="equipment.offhand.tome.lightning.4a">大师雷电法典</string>
+
+    <string name="equipment.twohanded.daggers.1a">双匕首</string>
+    <string name="equipment.twohanded.daggers.2a">重型匕首</string>
+    <string name="equipment.twohanded.daggers.3a">弯刃匕首</string>
+    <string name="equipment.twohanded.daggers.4a">宏伟匕首</string>
+
+    <string name="equipment.twohanded.maul.1a">木制大槌</string>
+    <string name="equipment.twohanded.maul.2a">战斗大槌</string>
+    <string name="equipment.twohanded.maul.3a">战锤</string>
+    <string name="equipment.twohanded.maul.4a">泰坦大槌</string>
+
+    <string name="equipment.twohanded.greataxe.1a">大劈刀</string>
+    <string name="equipment.twohanded.greataxe.2a">巨斧</string>
+    <string name="equipment.twohanded.greataxe.3a">重型巨斧</string>
+    <string name="equipment.twohanded.greataxe.4a">征服者巨斧</string>
+
+    <string name="equipment.twohanded.shortbow.1a">短弓</string>
+    <string name="equipment.twohanded.shortbow.2a">反曲弓</string>
+    <string name="equipment.twohanded.shortbow.3a">精灵弓</string>
+    <string name="equipment.twohanded.shortbow.4a">龙木弓</string>
+
+    <string name="equipment.twohanded.longbow.1a">长弓</string>
+    <string name="equipment.twohanded.longbow.2a">战弓</string>
+    <string name="equipment.twohanded.longbow.3a">帝国弓</string>
+    <string name="equipment.twohanded.longbow.4a">龙骨弓</string>
+
+    <string name="equipment.twohanded.crossbow.1a">弩</string>
+    <string name="equipment.twohanded.crossbow.2a">重型弩</string>
+    <string name="equipment.twohanded.crossbow.3a">帝国弩</string>
+    <string name="equipment.twohanded.crossbow.4a">镀金弩</string>
+
+    <string name="equipment.twohanded.staff.fire.1a">火焰法杖</string>
+    <string name="equipment.twohanded.staff.fire.2a">熟练火焰法杖</string>
+    <string name="equipment.twohanded.staff.fire.3a">卓越火焰法杖</string>
+    <string name="equipment.twohanded.staff.fire.4a">大师火焰法杖</string>
+
+    <string name="equipment.twohanded.staff.ice.1a">冰霜法杖</string>
+    <string name="equipment.twohanded.staff.ice.2a">熟练冰霜法杖</string>
+    <string name="equipment.twohanded.staff.ice.3a">卓越冰霜法杖</string>
+    <string name="equipment.twohanded.staff.ice.4a">大师冰霜法杖</string>
+
+    <string name="equipment.twohanded.staff.lightning.1a">雷电法杖</string>
+    <string name="equipment.twohanded.staff.lightning.2a">熟练雷电法杖</string>
+    <string name="equipment.twohanded.staff.lightning.3a">卓越雷电法杖</string>
+    <string name="equipment.twohanded.staff.lightning.4a">大师雷电法杖</string>
+
+
+
+
+    <string name="equipment.chest.str.1a">胸甲</string>
+    <string name="equipment.chest.str.2a">重型护甲</string>
+    <string name="equipment.chest.str.3a">全身铠甲</string>
+    <string name="equipment.chest.str.4a">十字军铠甲</string>
+    <string name="equipment.chest.dex.1a">皮甲</string>
+    <string name="equipment.chest.dex.2a">皮制护甲</string>
+    <string name="equipment.chest.dex.3a">镶钉皮甲</string>
+    <string name="equipment.chest.dex.4a">鳞甲</string>
+    <string name="equipment.chest.int.1a">简单长袍</string>
+    <string name="equipment.chest.int.2a">丝绸服</string>
+    <string name="equipment.chest.int.3a">镀金长袍</string>
+    <string name="equipment.chest.int.4a">宏伟长袍</string>
+
+    <string name="equipment.head.str.1a">铁盔</string>
+    <string name="equipment.head.str.2a">钢盔</string>
+    <string name="equipment.head.str.3a">大头盔</string>
+    <string name="equipment.head.str.4a">十字军盔</string>
+    <string name="equipment.head.dex.1a">布帽</string>
+    <string name="equipment.head.dex.1b">简单面罩</string>
+    <string name="equipment.head.dex.2a">皮质头巾</string>
+    <string name="equipment.head.dex.2b">盗贼面具</string>
+    <string name="equipment.head.dex.2c">盗贼面具</string>
+    <string name="equipment.head.dex.3a">精灵头巾</string>
+    <string name="equipment.head.dex.3b">头巾</string>
+    <string name="equipment.head.dex.3c">羽毛帽</string>
+    <string name="equipment.head.dex.4a">暗影头巾</string>
+    
+    <string name="equipment.head.int.1a">简单帽</string>
+    <string name="equipment.head.int.1b">简单头环</string>
+    <string name="equipment.head.int.2a">学徒帽</string>
+    <string name="equipment.head.int.2b">银头环</string>
+    <string name="equipment.head.int.3a">熟练者帽</string>
+    <string name="equipment.head.int.3b">镶宝头环</string>
+    <string name="equipment.head.int.4a">宏伟帽</string>
+    <string name="equipment.head.int.4b">金头环</string>
+
+    <string name="equipment.hands.str.1a">铁护手</string>
+    <string name="equipment.hands.str.2a">板甲护手</string>
+    <string name="equipment.hands.str.3a">镀金护手</string>
+    <string name="equipment.hands.str.4a">金护手</string>
+    <string name="equipment.hands.dex.1a">皮护腕</string>
+    <string name="equipment.hands.dex.2a">镶钉护腕</string>
+    <string name="equipment.hands.dex.3a">贵族护腕</string>
+    <string name="equipment.hands.dex.4a">龙鳞护腕</string>
+    <string name="equipment.hands.int.1a">布手套</string>
+    <string name="equipment.hands.int.2a">天鹅绒手套</string>
+    <string name="equipment.hands.int.3a">华丽手套</string>
+    <string name="equipment.hands.int.4a">奢华手套</string>
+
+    <string name="equipment.feet.str.1a">铁护胫</string>
+    <string name="equipment.feet.str.2a">板甲护胫</string>
+    <string name="equipment.feet.str.3a">帝国护胫</string>
+    <string name="equipment.feet.str.4a">龙骨护胫</string>
+    <string name="equipment.feet.dex.1a">兽皮靴</string>
+    <string name="equipment.feet.dex.2a">皮靴</string>
+    <string name="equipment.feet.dex.3a">贵族靴</string>
+    <string name="equipment.feet.dex.4a">华美靴</string>
+    <string name="equipment.feet.int.1a">布拖鞋</string>
+    <string name="equipment.feet.int.2a">天鹅绒拖鞋</string>
+    <string name="equipment.feet.int.3a">华丽拖鞋</string>
+    <string name="equipment.feet.int.4a">皇家拖鞋</string>
+
+    <string name="equipment.back.2a">斗篷</string>
+    <string name="equipment.back.2b">披风</string>
+    <string name="equipment.back.4a">高贵斗篷</string>
+    <string name="equipment.back.4b">宏伟披风</string>
+
+</lang>

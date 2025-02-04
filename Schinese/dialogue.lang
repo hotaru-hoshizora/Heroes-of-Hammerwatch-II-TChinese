@@ -1,0 +1,226 @@
+<lang>
+	<string name="building.guild_hall.name">公会</string>
+	<string name="building.training_grounds.name">训练场</string>
+	<string name="building.general_store.name">杂货店</string>
+	<string name="building.blacksmith.name">铁匠铺</string>
+	<string name="building.magic_shop.name">魔法商店</string>	
+	<string name="building.apothecary.name">药剂师</string>
+	<string name="building.enchanter.name">魔术师</string>
+	<string name="building.tavern.name">酒馆</string>
+	<string name="building.chapel.name">教堂</string>
+	<string name="building.pyre.name">火堆</string>
+	<string name="building.architect.name">建筑师</string>
+	<string name="building.hunters_cabin.name">猎人小屋</string>
+	<string name="building.library.name">图书馆</string>
+	<string name="building.trading_post.name">交易站</string>
+	<string name="building.tailor.name">裁缝</string>
+
+	<string name="building.tier">%tier%级</string>
+	<string name="building.build.new">新建建筑</string>
+	<string name="building.build.upgrade">升级至%num%级</string>
+
+
+
+	<string name="tutorial.intro.move1">尝试四处走动：</string>
+	<string name="tutorial.intro.move2">你也可以进行冲刺：%DashBind%。</string>
+	<string name="tutorial.intro.attack">要穿过这个障碍，你需要用你的武器或使用技能进行攻击。</string>
+	<string name="tutorial.intro.interact1">你可以在NPC旁按下%UseBind%与他们互动。</string>
+	<string name="tutorial.intro.interact2">如要移动到下一个区域，需要所有人移动到出口并按下%UseBind%。</string>
+	<string name="tutorial.intro.combat">有一些甲虫敌人正在靠近，灵活移动来避免受到伤害，并使用你的攻击来击败它们。</string>
+	<string name="tutorial.player_stash">你的玩家箱可以存放你找到的装备，并在不同角色之间移动。</string>
+	<string name="tutorial.player_training1">每次升级，你会获得\"icn-skillpt"技能点和 \"icn-attrpt"属性点。</string>
+	<string name="tutorial.player_training2">\"icn-skillpt"技能点可以解锁新技能将其升级。</string>
+	<string name="tutorial.player_training3">\"icn-attrpt"属性点用于增加你的基础属性，这些属性提供奖励，而且装备需要属性来装备。</string>
+	<string name="tutorial.forest.start1">欢迎来到森林！\n你总是可以沿着道路穿过森林，但是旁边的支路也有很多奖励。</string>
+	<string name="tutorial.forest.start2">如果你需要导航，您可以打开叠加地图，或在选项中打开常驻小地图。</string>
+	<string name="tutorial.forest.end1">你可以查看你的背包，看看到目前为止你在这一局中收集了什么。</string>
+	<string name="tutorial.forest.end2">许多东西，比如饰品，技能升级和增益，都是暂时的，任务结束后就会消失。\n但是其他物品，如装备、经验、金钱和材料是永久的，不会丢失。</string>
+	<string name="tutorial.forest.potion1">药剂师给了你一种药剂，你可以在战斗中使用它来恢复你的生命值和魔力。</string>
+	<string name="tutorial.forest.potion2">使用%PotionBind%来使用你的药剂。</string>
+	<string name="tutorial.forest.potion3">你的药水只能使用一次，但可以用井重新装满。</string>
+	<string name="tutorial.forest.finish">确保你与NPC交谈，有时他们有不止一句话要说，所以继续按%UseBind%继续阅读他们想要谈论的一切。</string>
+	<string name="tutorial.intro.guild_hall1">偶尔查看你的公会菜单，看看你的英雄之间共享的东西。成就和称号为你的所有角色，甚至是新角色，提供被动奖励。</string>
+	<string name="tutorial.intro.guild_hall2">每个职业擅长不同的职责，每个职业都会给你的整个公会带来奖励。如果你觉得自己太弱而无法进步，创建一个并升级一个不同的职业或许会有所帮助。</string>
+
+
+
+	<string name="dialogue.mercenary.join1">我们将和你一起完成这项任务！</string>
+	<string name="dialogue.mercenary.join2">我们会响应你的号召！</string>
+	<string name="dialogue.mercenary.archon.join1">带路！</string>
+	<string name="dialogue.mercenary.archon.join2">你领队，我们跟着！</string>
+
+	<string name="dialogue.player.dark_citadel.locked">这一定是黑暗城堡。我想知道怎么进去。</string>
+
+
+	<string name="npc.shop.armorer">兵器制造</string>
+	<string name="upgrades.armor.name">护甲%num%</string>
+	<string name="upgrades.armor.desc">+%gain%护甲</string>
+	<string name="upgrades.attack_power.name">武器%num%</string>
+	<string name="upgrades.attack_power.desc">+%gain%武器强度</string>
+	<string name="upgrades.attack_speed.name">武器速度%num%</string>
+	<string name="upgrades.attack_speed.desc">+%gain%%武器速度</string>
+	
+	<string name="npc.shop.apothecary">药剂师</string>
+	<string name="upgrades.potion_charges.name">药剂充能%num%</string>
+	<string name="upgrades.potion_charges.desc">+%gain%药剂充能</string>
+	<string name="upgrades.potion_health.name">生命药剂%num%</string>
+	<string name="upgrades.potion_health.desc">生命恢复从%from%提升至%to%</string>
+	<string name="upgrades.potion_mana.name">魔法药剂%num%</string>
+	<string name="upgrades.potion_mana.desc">魔法恢复从%from%提升至%to%</string>
+	<string name="upgrades.poison_res.name">毒抗性%num%</string>
+	<string name="upgrades.poison_res.desc">+%gain%毒抗性</string>
+	
+	<string name="npc.shop.athlete">运动员</string>
+	<string name="upgrades.dash_charges.name">冲刺充能%num%</string>
+	<string name="upgrades.dash_charges.desc">+%gain%冲刺充能</string>
+	<string name="upgrades.dash_recharge.name">冲刺充能%num%</string>
+	<string name="upgrades.dash_recharge.desc">-%gain%%冲刺充能时间</string>
+	<string name="upgrades.move_speed.name">移动速度%num%</string>
+	<string name="upgrades.move_speed.desc">+%gain%%移动速度</string>
+	<string name="upgrades.health_pickups.name">生命拾取品%num%</string>
+	<string name="upgrades.health_pickups.desc">+%gain%%生命拾取品效果</string>
+	
+	<string name="npc.shop.mystic">神秘家</string>
+	<string name="upgrades.ele_res.name">元素抗性%num%</string>
+	<string name="upgrades.ele_res.desc">+%gain%火/冰/电抗性</string>
+	<string name="upgrades.mana_pickups.name">魔力拾取品%num%</string>
+	<string name="upgrades.mana_pickups.desc">+%gain%%魔力拾取品效果</string>
+	<string name="upgrades.spell_power.name">技能强度%num%</string>
+	<string name="upgrades.spell_power.desc">+%gain%技能强度</string>
+
+	<string name="npc.shop.attribute_assigner">属性分配</string>
+	<string name="npc.shop.material_trader">材料贸易</string>
+	<string name="npc.shop.library_skill">分配技能</string>
+	<string name="npc.shop.skill_trainer">技能训练</string>
+	<string name="npc.shop.equipment_upgrade">升级装备</string>
+	<string name="npc.shop.equipment_enchant">附魔装备</string>
+	<string name="npc.shop.weapon_mastery">武器大师</string>
+	<string name="npc.shop.trinket_attune">饰品共鸣</string>
+
+
+	<string name="npc.shop.builder">建造建筑</string>
+	<string name="npc.shop.builder.empty.demo">正式版有更多的建筑和升级！</string>
+
+	<string name="npc.shop.upgrades.empty">你已经购买了你已知的一切了。</string>
+	<string name="npc.shop.upgrades.empty.shoplvl">升级这个建筑以获得更多升级。</string>
+
+	<string name="npc.shop.equip.sell">售卖装备</string>
+	<string name="npc.shop.equip.buy">购买装备</string>
+	<string name="npc.shop.trinket.buy">购买食品</string>
+	<string name="npc.shop.trinket.left">可购买:%num%</string>
+	<string name="npc.shop.equip.take">挑选一件设备</string>
+	<string name="npc.shop.trinket.picker">挑选一个饰品</string>
+
+	<string name="npc.shop.buy.gold">以金币购买</string>
+	<string name="npc.shop.sell.gold">出售为金币</string>
+
+	<string name="npc.shop.equip.take.prompt">我的马车已经满了！你想要一件装备吗？</string>
+
+
+
+	<string name="dialogue.adam.intro.shout">救命！</string>
+	<string name="dialogue.adam.intro.prompt1">邪教徒找到了我们的营地并发动了袭击！</string>
+	<string name="dialogue.player.intro.response1">发生了什么事？</string>
+	<string name="dialogue.adam.intro.prompt2">你能帮帮我吗，我们不是士兵，他们会杀了我们所有人的！</string>
+	<string name="dialogue.player.intro.response2">没问题！</string>
+	<string name="dialogue.adam.intro.prompt3">非常感谢。通常只有哥布林才是威胁，但他们是有秩序的。</string>
+	<string name="dialogue.adam.intro.prompt4">最近，信徒们更加活跃，走出了他们的寺庙。</string>
+	<string name="dialogue.adam.intro.prompt5">但请快点，我不知道他们能坚持多久！</string>
+
+
+	<string name="dialogue.adam.prompt1.1">我们永远还不清你所做的人情。</string>
+	<string name="dialogue.adam.prompt1.2">邪教不仅变得咄咄逼人，哥布林们似乎也在做什么！</string>
+	<string name="dialogue.adam.prompt2.1">这里的情况真的开始好转了。</string>
+	<string name="dialogue.adam.prompt2.2">我希望邪教徒不会再找到我们。</string>
+	<string name="dialogue.adam.prompt3">没有你，这些建筑不可能造起来，非常感谢。</string>
+
+	<string name="dialogue.kevin.prompt1.1">这些饮料真不错！你到森林里去的时候应该喝点东西，这样会更有趣！</string>
+	<string name="dialogue.kevin.prompt1.2">菜单上有食物和饮料的食谱。</string>
+
+	<string name="dialogue.kelly.prompt1.1">这是一个对宠物友好的小镇，我的猫喜欢探索。</string>
+	<string name="dialogue.kelly.prompt1.2">这个地方很舒适，但我很想搬到更大的房子里住。</string>
+	<string name="dialogue.kelly.prompt1.3">很高兴认识你，你可以叫我凯利。</string>
+
+
+	<string name="dialogue.traveling_monk.prompt1.1">嘿，我们以前见过面吗？</string>
+	<string name="dialogue.traveling_monk.prompt1.2">我经常在路上，去光明尚未到达的新地方旅行。</string>
+
+	<string name="dialogue.elin.prompt1.1">你读过这些吗？</string>
+	<string name="dialogue.elin.prompt1.2">这里有一些很棒的东西。</string>
+	<string name="dialogue.elin.prompt1.3">也许我应该把这个带到酒馆，在那里读一读。</string>
+
+	<string name="dialogue.grandma.prompt1">我真心希望我的孙子能尽快前来。我想念他。</string>
+
+	<string name="dialogue.guard_exit.prompt1">在外面多加小心！</string>
+
+
+	<string name="dialogue.librarian.found">哦，你好！我已经找了一段时间了，但这里什么都没有。一本书都没。</string>
+	<string name="dialogue.librarian.prompt1.1">书籍真的很特别，它们可以带你去一个不同的世界，一种不同的思想。</string>
+	<string name="dialogue.librarian.prompt1.2">你应该考虑建一座图书馆，这会让这个城镇更上一层楼。</string>
+	
+	<string name="dialogue.enchanter.found.1">这些书和卷轴里有很多魔法和咒语。</string>
+	<string name="dialogue.enchanter.found.2">这一切都很独特，但我需要离开这里。这里到处都是威胁！</string>
+	
+	<string name="dialogue.architect.found.1">谢谢你救了我，但我担心可能为时已晚。</string>
+	<string name="dialogue.architect.found.2">我从来没有帮他们穿过主入口，但我认为他们设法通过这个地下室到达了城堡。</string>
+	<string name="dialogue.architect.prompt1">我在城堡旁的森林里等你。</string>
+	<string name="dialogue.architect.prompt2">我会帮你打开这个。</string>
+
+
+
+	<string name="dialogue.rogue.found.1">你好！你也在这里寻找宝藏？</string>
+	<string name="dialogue.rogue.found.2">你有营地吗？如果你有空，我给你看些把戏。</string>
+	<string name="dialogue.rogue.is_same">唔，我不确定我是否信任你。</string>
+	<string name="dialogue.rogue.is_other">为了能够更安全地穿过陷阱，考虑接受身法培训是值得的。</string>
+
+	<string name="dialogue.warlock.found.1">小心！门被锁上了，而且下面的洞穴也很危险。</string>
+	<string name="dialogue.warlock.found.2">下面有东西醒了，我要离开这里，你也应该这样做。</string>
+	<string name="dialogue.warlock.is_same">很高兴见到你，助手。</string>
+	<string name="dialogue.warlock.is_other">我们在魔法的黑暗面比许多人更有洞察力，这种阴影魔法很特别。</string>
+
+	<string name="dialogue.sorcerer.found.1">嘿！你也找到那扇门了？现在越来越难了。</string>
+	<string name="dialogue.sorcerer.found.2">在继续之前，点的蜡烛越多，斗争就越艰难。我还没穿过阴影，所以我不确定接下来会发生什么。</string>
+	<string name="dialogue.sorcerer.is_same">元素的另一个学生？很好，他们揭开了宇宙的秘密。</string>
+	<string name="dialogue.sorcerer.is_other">我们周围都有魔法，你需要做的就是引导它。</string>
+
+
+
+	<string name="dialogue.hunter.intro1">哦，路塌了吗？</string>
+	<string name="dialogue.hunter.intro2">你或许可以绕过西边的小溪，然后深入北边的森林。</string>
+	<string name="dialogue.hunter.intro3">但要小心，这里的森林很危险，道路很可能是故意堵塞的。</string>
+
+	<string name="dialogue.hunter.prompt1">哦，你要扎营？如果你能给我工具，我就教你如何最大限度地利用你杀死的野兽。</string>
+	<string name="dialogue.hunter.prompt2.1">我需要比这个帐篷更好的避难所。</string>
+	<string name="dialogue.hunter.prompt2.2">这些穿着长袍的白痴在森林里跑来跑去，你知道吗？</string>
+	<string name="dialogue.hunter.prompt3">外面怎么样？</string>
+
+
+	<string name="dialogue.builder.intro.prompt1">大家准备好，这是我们的最后一战！</string>
+	<string name="dialogue.builder.intro.prompt2.1">哇，你真是个英雄！非常感谢，没有你，我们活不下去。</string>
+	<string name="dialogue.builder.intro.prompt2.2">那些邪教分子一旦找到我们，就永远不会停下来，他们最近非常咄咄逼人。</string>
+
+
+	<string name="dialogue.apothecary.intro.prompt1.1">谢谢你的帮助！他们拆掉了我的实验室，所以我能为你做的有限，但在这里，有一瓶药水。</string>
+	<string name="dialogue.apothecary.intro.prompt1.2">我需要一个合适的药剂师实验室来进一步帮助你，但我现在可以改进你的药水。</string>
+
+
+
+	<string name="dialogue.chaplain.intro.prompt1.1">这太可怕了，你真的像上天的祝福一样到来了。</string>
+	<string name="dialogue.chaplain.intro.prompt1.2">我可以带我们去更安全的地方。</string>
+	<string name="dialogue.chaplain.prompt1.1">这些邪教分子已经试图进入黑暗堡垒一段时间了，但最近他们的攻击性要大得多。他们现在可能已经接近了。</string>
+	<string name="dialogue.chaplain.prompt1.2">堡垒已经关闭了几个世纪；没人知道发生了什么事。</string>
+	<string name="dialogue.chaplain.prompt1.3">如果你能向北走进森林调查这个问题，那将是一个很大的帮助。</string>
+
+
+	<string name="dialogue.subclass.lowlvl">我现在还帮不了你。\n等你10级后再来吧。</string>
+
+
+	<string name="dialogue.armorer.rescue">嘿！你知道去其他地方的路？</string>
+	<string name="dialogue.armorer.prompt1">感谢您找到我们并将我们带到这里，我们将尽我们所能提供帮助。</string>
+
+	<string name="dialogue.blacksmith.rescue">哦，太好了，如果由我哥哥来决定，我们还是会迷路的！</string>
+	<string name="dialogue.blacksmith.prompt1">你这里真是个好地方！如果你能帮我们建造一个铁匠铺，我可以帮你升级设备。</string>
+	<string name="dialogue.blacksmith.prompt2.1">我哥哥可以教你如何更有效地使用你的盔甲和武器，如果你能为我们获得合适的锻造资源，我也可以升级你的装备。</string>
+	<string name="dialogue.blacksmith.prompt2.2">我们在后面也有武器出售，它们虽然是简单的量产装备，但是质量有保证。</string>
+
+</lang>
