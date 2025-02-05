@@ -1,4 +1,4 @@
-<lang name="Simple Chinese_base" min-size="9" max-bold="0" fonts="unicode">
+<lang name="Simple Chinese_base" min-size="12" max-bold="0" fonts="unicode">
 
 	<string name="skill.tag.weapon">\cffdfb0武器\d</string>
 	<string name="skill.tag.spell">\cffdfb0技能\d</string>
@@ -15,15 +15,14 @@
 
 
 	<!-- Menu -->
-
 	<string name="menu.accept">接受</string>
 	<string name="menu.yes">是</string>
 	<string name="menu.no">否</string>
 	<string name="menu.ok">确定</string>
 	<string name="menu.cancel">取消</string>
 	<string name="menu.back">返回</string>
-
 	<string name="menu.cost">\"icn-money" %amount%</string>
+
 	<string name="menu.nav.select">选择</string>
 	<string name="menu.nav.create">创建</string>
 	<string name="menu.nav.refresh">刷新</string>
@@ -62,7 +61,7 @@
 	<string name="menu.nav.withdraw">取出</string>
 	<string name="menu.nav.deposit_to">存入至'%to%'</string>
 	<string name="menu.nav.rename">重新命名</string>
-
+	<string name="menu.nav.link_item">分享物品</string>
 
 
 	<string name="misc.timeletters.hours">时</string>
@@ -164,7 +163,7 @@
 	<string name="menu.enchanter.no_equipment">您没有可附魔的装备。</string>
 	<string name="menu.enchanter.no_modifiers">您没有可用的附魔，请寻找更多蓝图。</string>
 	<string name="menu.enchanter.upgrade">升级至%quality%</string>
-	<string name="menu.enchanter.enchant">附魔。</string>
+	<string name="menu.enchanter.enchant">附魔</string>
 
 	<string name="menu.library.no_attunement">您没有饰品可调整，请寻找更多蓝图。</string>
 
@@ -263,15 +262,15 @@
 	<string name="menu.mission_end.materials">材料</string>
 	<string name="menu.mission_end.stats">统计</string>
 	
-	<string name="menu.mission_end.step.sent_back">已送回：</string>
-	<string name="menu.mission_end.step.picked_up">已拾取：</string>
-	<string name="menu.mission_end.step.valuables">贵重物品：</string>
-	<string name="menu.mission_end.step.trinkets.common">普通饰品：</string>
-	<string name="menu.mission_end.step.trinkets.uncommon">罕见饰品：</string>
-	<string name="menu.mission_end.step.trinkets.rare">稀有饰品：</string>
-	<string name="menu.mission_end.step.trinkets.epic">史诗饰品：</string>
-	<string name="menu.mission_end.step.revive">复活捐赠（教堂：%rate%%)：</string>
-	<string name="menu.mission_end.step.reward">任务奖励：</string>
+	<string name="menu.mission_end.step.sent_back">已送回</string>
+	<string name="menu.mission_end.step.picked_up">已拾取</string>
+	<string name="menu.mission_end.step.valuables">贵重物品</string>
+	<string name="menu.mission_end.step.trinkets.common">普通饰品</string>
+	<string name="menu.mission_end.step.trinkets.uncommon">罕见饰品</string>
+	<string name="menu.mission_end.step.trinkets.rare">稀有饰品</string>
+	<string name="menu.mission_end.step.trinkets.epic">史诗饰品</string>
+	<string name="menu.mission_end.step.revive">复活捐赠（教堂：%rate%%)</string>
+	<string name="menu.mission_end.step.reward">任务奖励</string>
 
 
 	<string name="menu.player_stash.withdraw">取出</string>
@@ -868,7 +867,7 @@
 	<string name="blessing.protection.desc">%amnt%承受伤害</string>
 	<string name="blessing.speed.name">敏捷祝福</string>
 	<string name="blessing.speed.desc">%amnt%移动速度</string>
-	<string name="blessing.speed.shrine.desc">%amnt%移动速度/n冲刺加成</string>
+	<string name="blessing.speed.shrine.desc">%amnt%移动速度\n冲刺恢复时间缩短</string>
 	<string name="blessing.light.name">光明祝福</string>
 	<string name="blessing.light.desc">%amnt%获得的暗影诅咒</string>
 	<string name="blessing.mana.name">技巧祝福</string>

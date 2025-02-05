@@ -97,6 +97,7 @@
 	<string name="npc.shop.weapon_mastery">武器大师</string>
 	<string name="npc.shop.trinket_attune">饰品共鸣</string>
 
+	<string name="npc.shop.equipment_upgrade.upgrade">(提升物品等级 %amnt%)</string>
 
 	<string name="npc.shop.builder">建造建筑</string>
 	<string name="npc.shop.builder.empty.demo">正式版有更多的建筑和升级！</string>
@@ -223,4 +224,5 @@
 	<string name="dialogue.blacksmith.prompt2.1">我哥哥可以教你如何更有效地使用你的盔甲和武器，如果你能为我们获得合适的锻造资源，我也可以升级你的装备。</string>
 	<string name="dialogue.blacksmith.prompt2.2">我们在后面也有武器出售，它们虽然是简单的量产装备，但是质量有保证。</string>
 
+	<string name="dialogue.shadowface_cultist.laugh">嘿嘿嘿……</string>
 </lang>
